@@ -1,0 +1,25 @@
+[0.290s] Invoking command in '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chaitanya/bumperbot_ws/build/bumperbot_firmware -- -j4 -l4
+[0.940s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/transmitter.cpp.o[0m
+[70.215s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[73.113s] [100%] Built target simple_serial_transmitter
+[73.221s] Invoked command in '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chaitanya/bumperbot_ws/build/bumperbot_firmware -- -j4 -l4
+[73.259s] Invoking command in '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chaitanya/bumperbot_ws/build/bumperbot_firmware
+[73.333s] -- Install configuration: ""
+[73.342s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[73.383s] -- Set runtime path of "/home/chaitanya/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter" to ""
+[73.387s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[73.389s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[73.394s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[73.395s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[73.399s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[73.406s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[73.408s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[73.410s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[73.411s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[73.412s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[73.412s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[73.413s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[73.420s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[73.426s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[73.428s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[73.433s] Invoked command in '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chaitanya/bumperbot_ws/build/bumperbot_firmware

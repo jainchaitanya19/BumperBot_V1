@@ -1,0 +1,3 @@
+[0.311s] Invoking command in '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chaitanya/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/chaitanya/bumperbot_ws/build/bumperbot_firmware -- -j4 -l4
+[1.508s] [35m[1mConsolidate compiler generated dependencies of target simple_serial_transmitter[0m
+[1.883s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/transmitter.cpp.o[0m
