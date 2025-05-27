@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /home/chaitanya/bumperbot_ws/build/bumperbot_firmware
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/bumperbot_firmware.dir/all
 all: CMakeFiles/simple_serial_transmitter.dir/all
 .PHONY : all
 
@@ -73,6 +74,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/bumperbot_firmware_uninstall.dir/clean
+clean: CMakeFiles/bumperbot_firmware.dir/clean
 clean: CMakeFiles/simple_serial_transmitter.dir/clean
 .PHONY : clean
 
@@ -129,13 +131,39 @@ CMakeFiles/bumperbot_firmware_uninstall.dir/clean:
 .PHONY : CMakeFiles/bumperbot_firmware_uninstall.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/bumperbot_firmware.dir
+
+# All Build rule for target.
+CMakeFiles/bumperbot_firmware.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_firmware.dir/build.make CMakeFiles/bumperbot_firmware.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_firmware.dir/build.make CMakeFiles/bumperbot_firmware.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaitanya/bumperbot_ws/build/bumperbot_firmware/CMakeFiles --progress-num=1,2 "Built target bumperbot_firmware"
+.PHONY : CMakeFiles/bumperbot_firmware.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/bumperbot_firmware.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaitanya/bumperbot_ws/build/bumperbot_firmware/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bumperbot_firmware.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaitanya/bumperbot_ws/build/bumperbot_firmware/CMakeFiles 0
+.PHONY : CMakeFiles/bumperbot_firmware.dir/rule
+
+# Convenience name for target.
+bumperbot_firmware: CMakeFiles/bumperbot_firmware.dir/rule
+.PHONY : bumperbot_firmware
+
+# clean rule for target.
+CMakeFiles/bumperbot_firmware.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_firmware.dir/build.make CMakeFiles/bumperbot_firmware.dir/clean
+.PHONY : CMakeFiles/bumperbot_firmware.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/simple_serial_transmitter.dir
 
 # All Build rule for target.
 CMakeFiles/simple_serial_transmitter.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaitanya/bumperbot_ws/build/bumperbot_firmware/CMakeFiles --progress-num=1,2 "Built target simple_serial_transmitter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chaitanya/bumperbot_ws/build/bumperbot_firmware/CMakeFiles --progress-num=3,4 "Built target simple_serial_transmitter"
 .PHONY : CMakeFiles/simple_serial_transmitter.dir/all
 
 # Build rule for subdir invocation for target.

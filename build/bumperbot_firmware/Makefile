@@ -198,6 +198,19 @@ bumperbot_firmware_uninstall/fast:
 .PHONY : bumperbot_firmware_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named bumperbot_firmware
+
+# Build rule for target.
+bumperbot_firmware: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bumperbot_firmware
+.PHONY : bumperbot_firmware
+
+# fast build rule for target.
+bumperbot_firmware/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_firmware.dir/build.make CMakeFiles/bumperbot_firmware.dir/build
+.PHONY : bumperbot_firmware/fast
+
+#=============================================================================
 # Target rules for targets named simple_serial_transmitter
 
 # Build rule for target.
@@ -209,6 +222,30 @@ simple_serial_transmitter: cmake_check_build_system
 simple_serial_transmitter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/build
 .PHONY : simple_serial_transmitter/fast
+
+src/BumperbotHardware.o: src/BumperbotHardware.cpp.o
+.PHONY : src/BumperbotHardware.o
+
+# target to build an object file
+src/BumperbotHardware.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_firmware.dir/build.make CMakeFiles/bumperbot_firmware.dir/src/BumperbotHardware.cpp.o
+.PHONY : src/BumperbotHardware.cpp.o
+
+src/BumperbotHardware.i: src/BumperbotHardware.cpp.i
+.PHONY : src/BumperbotHardware.i
+
+# target to preprocess a source file
+src/BumperbotHardware.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_firmware.dir/build.make CMakeFiles/bumperbot_firmware.dir/src/BumperbotHardware.cpp.i
+.PHONY : src/BumperbotHardware.cpp.i
+
+src/BumperbotHardware.s: src/BumperbotHardware.cpp.s
+.PHONY : src/BumperbotHardware.s
+
+# target to generate assembly for a file
+src/BumperbotHardware.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_firmware.dir/build.make CMakeFiles/bumperbot_firmware.dir/src/BumperbotHardware.cpp.s
+.PHONY : src/BumperbotHardware.cpp.s
 
 src/transmitter.o: src/transmitter.cpp.o
 .PHONY : src/transmitter.o
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... bumperbot_firmware_uninstall"
 	@echo "... uninstall"
+	@echo "... bumperbot_firmware"
 	@echo "... simple_serial_transmitter"
+	@echo "... src/BumperbotHardware.o"
+	@echo "... src/BumperbotHardware.i"
+	@echo "... src/BumperbotHardware.s"
 	@echo "... src/transmitter.o"
 	@echo "... src/transmitter.i"
 	@echo "... src/transmitter.s"

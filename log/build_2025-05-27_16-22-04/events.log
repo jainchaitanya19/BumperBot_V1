@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.001271] (-) JobUnselected: {'identifier': 'bumperbot_controller'}
+[0.001969] (-) JobUnselected: {'identifier': 'bumperbot_cpp_examples'}
+[0.002346] (-) JobUnselected: {'identifier': 'bumperbot_description'}
+[0.002575] (-) JobUnselected: {'identifier': 'bumperbot_firmware'}
+[0.002754] (-) JobUnselected: {'identifier': 'bumperbot_localization'}
+[0.003172] (-) JobUnselected: {'identifier': 'bumperbot_msgs'}
+[0.003544] (-) JobUnselected: {'identifier': 'bumperbot_py_examples'}
+[0.004180] (-) EventReactorShutdown: {}

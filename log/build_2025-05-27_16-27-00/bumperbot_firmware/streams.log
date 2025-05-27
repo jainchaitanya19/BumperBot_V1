@@ -1,0 +1,21 @@
+[0.134s] Invoking command in '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chaitanya/bumperbot_ws/build/bumperbot_firmware -- -j4 -l4
+[0.685s] [35m[1mConsolidate compiler generated dependencies of target simple_serial_transmitter[0m
+[0.698s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_firmware[0m
+[0.963s] [ 50%] Built target simple_serial_transmitter
+[1.006s] [100%] Built target bumperbot_firmware
+[1.212s] Invoked command in '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chaitanya/bumperbot_ws/build/bumperbot_firmware -- -j4 -l4
+[1.220s] Invoking command in '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chaitanya/bumperbot_ws/build/bumperbot_firmware
+[1.286s] -- Install configuration: ""
+[1.290s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/src/BumperbotHardware.xml
+[1.299s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[1.307s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[1.313s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/include
+[1.317s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/include/bumperbot_firmware
+[1.324s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/include/bumperbot_firmware/bumperbot_interface.hpp
+[1.330s] [31mCMake Error at cmake_install.cmake:97 (file):
+[1.333s]   file INSTALL cannot find
+[1.337s]   "/home/chaitanya/bumperbot_ws/src/bumperbot_firmware/BumperbotHardward.xml":
+[1.340s]   No such file or directory.
+[1.357s] 
+[1.358s] [0m
+[1.375s] Invoked command in '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chaitanya/bumperbot_ws/build/bumperbot_firmware
