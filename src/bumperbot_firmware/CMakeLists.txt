@@ -49,7 +49,7 @@ ament_target_dependencies(simple_serial_transmitter
 )
 
 # Pluginlib Export
-pluginlib_export_plugin_description_file(hardware_interface src/BumperbotHardware.xml) 
+pluginlib_export_plugin_description_file(bumperbot_firmware src/BumperbotHardware.xml) 
 
 # Install Targets
 install(TARGETS

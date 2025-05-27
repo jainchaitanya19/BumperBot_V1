@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.001583] (-) JobUnselected: {'identifier': 'bumperbot_controller'}
+[0.002133] (-) JobUnselected: {'identifier': 'bumperbot_cpp_examples'}
+[0.002615] (-) JobUnselected: {'identifier': 'bumperbot_description'}
+[0.002806] (-) JobUnselected: {'identifier': 'bumperbot_localization'}
+[0.003085] (-) JobUnselected: {'identifier': 'bumperbot_msgs'}
+[0.003243] (-) JobUnselected: {'identifier': 'bumperbot_py_examples'}
+[0.003342] (bumperbot_firmware) JobQueued: {'identifier': 'bumperbot_firmware', 'dependencies': OrderedDict()}
+[0.003491] (bumperbot_firmware) JobStarted: {'identifier': 'bumperbot_firmware'}
+[0.057210] (bumperbot_firmware) JobProgress: {'identifier': 'bumperbot_firmware', 'progress': 'cmake'}
+[0.062084] (bumperbot_firmware) JobProgress: {'identifier': 'bumperbot_firmware', 'progress': 'build'}
+[0.066041] (bumperbot_firmware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware', '--', '-j4', '-l4'], 'cwd': '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'chaitanya'), ('SSH_AGENT_PID', '1679'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chaitanya'), ('OLDPWD', '/home/chaitanya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1788'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chaitanya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chaitanya:@/tmp/.ICE-unix/1762,unix/chaitanya:/tmp/.ICE-unix/1762'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fb81c64a_ca39_489b_b04a_d6313e721c3c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098958] (-) TimerEvent: {}
+[0.199815] (-) TimerEvent: {}
+[0.300768] (-) TimerEvent: {}
+[0.401765] (-) TimerEvent: {}
+[0.502648] (-) TimerEvent: {}
+[0.525302] (bumperbot_firmware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.602861] (-) TimerEvent: {}
+[0.703764] (-) TimerEvent: {}
+[0.804874] (-) TimerEvent: {}
+[0.906045] (-) TimerEvent: {}
+[1.006962] (-) TimerEvent: {}
+[1.107887] (-) TimerEvent: {}
+[1.197226] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.208048] (-) TimerEvent: {}
+[1.308786] (-) TimerEvent: {}
+[1.409564] (-) TimerEvent: {}
+[1.435274] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.453773] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.488428] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.509724] (-) TimerEvent: {}
+[1.542264] (bumperbot_firmware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.609942] (-) TimerEvent: {}
+[1.613437] (bumperbot_firmware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.710125] (-) TimerEvent: {}
+[1.800485] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.810287] (-) TimerEvent: {}
+[1.810904] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.910474] (-) TimerEvent: {}
+[2.011228] (-) TimerEvent: {}
+[2.112031] (-) TimerEvent: {}
+[2.212750] (-) TimerEvent: {}
+[2.313490] (-) TimerEvent: {}
+[2.414195] (-) TimerEvent: {}
+[2.514882] (-) TimerEvent: {}
+[2.615593] (-) TimerEvent: {}
+[2.716364] (-) TimerEvent: {}
+[2.817059] (-) TimerEvent: {}
+[2.917818] (-) TimerEvent: {}
+[2.923305] (bumperbot_firmware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.018005] (-) TimerEvent: {}
+[3.118796] (-) TimerEvent: {}
+[3.219573] (-) TimerEvent: {}
+[3.221050] (bumperbot_firmware) StdoutLine: {'line': b'-- Found hardware_interface: 2.50.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[3.319777] (-) TimerEvent: {}
+[3.420535] (-) TimerEvent: {}
+[3.521423] (-) TimerEvent: {}
+[3.622263] (-) TimerEvent: {}
+[3.723081] (-) TimerEvent: {}
+[3.823826] (-) TimerEvent: {}
+[3.924506] (-) TimerEvent: {}
+[4.025265] (-) TimerEvent: {}
+[4.125988] (-) TimerEvent: {}
+[4.226694] (-) TimerEvent: {}
+[4.327408] (-) TimerEvent: {}
+[4.428199] (-) TimerEvent: {}
+[4.430459] (bumperbot_firmware) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.528426] (-) TimerEvent: {}
+[4.629344] (-) TimerEvent: {}
+[4.728874] (bumperbot_firmware) StdoutLine: {'line': b'-- Generating done\n'}
+[4.729586] (-) TimerEvent: {}
+[4.766206] (bumperbot_firmware) StdoutLine: {'line': b'-- Build files have been written to: /home/chaitanya/bumperbot_ws/build/bumperbot_firmware\n'}
+[4.829806] (-) TimerEvent: {}
+[4.889533] (bumperbot_firmware) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target simple_serial_transmitter\x1b[0m\n'}
+[4.890122] (bumperbot_firmware) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bumperbot_firmware\x1b[0m\n'}
+[4.930017] (-) TimerEvent: {}
+[4.991365] (bumperbot_firmware) StdoutLine: {'line': b'[ 50%] Built target simple_serial_transmitter\n'}
+[5.007459] (bumperbot_firmware) StdoutLine: {'line': b'[100%] Built target bumperbot_firmware\n'}
+[5.030317] (-) TimerEvent: {}
+[5.055207] (bumperbot_firmware) CommandEnded: {'returncode': 0}
+[5.059278] (bumperbot_firmware) JobProgress: {'identifier': 'bumperbot_firmware', 'progress': 'install'}
+[5.099678] (bumperbot_firmware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware'], 'cwd': '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'chaitanya'), ('SSH_AGENT_PID', '1679'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chaitanya'), ('OLDPWD', '/home/chaitanya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1788'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chaitanya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chaitanya:@/tmp/.ICE-unix/1762,unix/chaitanya:/tmp/.ICE-unix/1762'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fb81c64a_ca39_489b_b04a_d6313e721c3c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.130504] (-) TimerEvent: {}
+[5.131323] (bumperbot_firmware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.132064] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/src/BumperbotHardware.xml\n'}
+[5.133429] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so\n'}
+[5.135646] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter\n'}
+[5.136873] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/include\n'}
+[5.137382] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/include/bumperbot_firmware\n'}
+[5.137878] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/include/bumperbot_firmware/bumperbot_interface.hpp\n'}
+[5.138410] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/BumperbotHardware.xml\n'}
+[5.138892] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh\n'}
+[5.139255] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv\n'}
+[5.140370] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware\n'}
+[5.140886] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware\n'}
+[5.141361] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh\n'}
+[5.141924] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv\n'}
+[5.143049] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh\n'}
+[5.143823] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv\n'}
+[5.146892] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash\n'}
+[5.147642] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh\n'}
+[5.148090] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh\n'}
+[5.148629] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv\n'}
+[5.148982] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv\n'}
+[5.149593] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware\n'}
+[5.150426] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/bumperbot_firmware__pluginlib__plugin/bumperbot_firmware\n'}
+[5.151938] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.152758] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.153361] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.153868] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake\n'}
+[5.154270] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake\n'}
+[5.154883] (bumperbot_firmware) StdoutLine: {'line': b'-- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml\n'}
+[5.164305] (bumperbot_firmware) CommandEnded: {'returncode': 0}
+[5.231690] (-) TimerEvent: {}
+[5.287571] (bumperbot_firmware) JobEnded: {'identifier': 'bumperbot_firmware', 'rc': 0}
+[5.292056] (-) EventReactorShutdown: {}
