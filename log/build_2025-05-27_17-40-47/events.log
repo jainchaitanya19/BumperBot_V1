@@ -1,0 +1,458 @@
+[0.000000] (-) TimerEvent: {}
+[0.001716] (-) JobUnselected: {'identifier': 'bumperbot_controller'}
+[0.002348] (-) JobUnselected: {'identifier': 'bumperbot_cpp_examples'}
+[0.002874] (-) JobUnselected: {'identifier': 'bumperbot_description'}
+[0.003091] (-) JobUnselected: {'identifier': 'bumperbot_localization'}
+[0.003400] (-) JobUnselected: {'identifier': 'bumperbot_msgs'}
+[0.003583] (-) JobUnselected: {'identifier': 'bumperbot_py_examples'}
+[0.003702] (bumperbot_firmware) JobQueued: {'identifier': 'bumperbot_firmware', 'dependencies': OrderedDict()}
+[0.003821] (bumperbot_firmware) JobStarted: {'identifier': 'bumperbot_firmware'}
+[0.051502] (bumperbot_firmware) JobProgress: {'identifier': 'bumperbot_firmware', 'progress': 'cmake'}
+[0.054604] (bumperbot_firmware) JobProgress: {'identifier': 'bumperbot_firmware', 'progress': 'build'}
+[0.057437] (bumperbot_firmware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware', '--', '-j4', '-l4'], 'cwd': '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'chaitanya'), ('SSH_AGENT_PID', '1679'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chaitanya'), ('OLDPWD', '/home/chaitanya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1788'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chaitanya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chaitanya:@/tmp/.ICE-unix/1762,unix/chaitanya:/tmp/.ICE-unix/1762'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fb81c64a_ca39_489b_b04a_d6313e721c3c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098888] (-) TimerEvent: {}
+[0.199789] (-) TimerEvent: {}
+[0.302057] (-) TimerEvent: {}
+[0.402974] (-) TimerEvent: {}
+[0.473056] (bumperbot_firmware) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/transmitter.cpp.o\x1b[0m\n'}
+[0.478671] (bumperbot_firmware) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/BumperbotHardware.cpp.o\x1b[0m\n'}
+[0.503157] (-) TimerEvent: {}
+[0.604094] (-) TimerEvent: {}
+[0.705100] (-) TimerEvent: {}
+[0.806206] (-) TimerEvent: {}
+[0.906946] (-) TimerEvent: {}
+[1.007705] (-) TimerEvent: {}
+[1.108842] (-) TimerEvent: {}
+[1.210221] (-) TimerEvent: {}
+[1.311094] (-) TimerEvent: {}
+[1.411837] (-) TimerEvent: {}
+[1.512659] (-) TimerEvent: {}
+[1.613632] (-) TimerEvent: {}
+[1.714397] (-) TimerEvent: {}
+[1.815229] (-) TimerEvent: {}
+[1.916041] (-) TimerEvent: {}
+[2.016824] (-) TimerEvent: {}
+[2.117942] (-) TimerEvent: {}
+[2.218764] (-) TimerEvent: {}
+[2.319863] (-) TimerEvent: {}
+[2.420891] (-) TimerEvent: {}
+[2.522417] (-) TimerEvent: {}
+[2.625042] (-) TimerEvent: {}
+[2.726331] (-) TimerEvent: {}
+[2.827190] (-) TimerEvent: {}
+[2.928154] (-) TimerEvent: {}
+[3.029073] (-) TimerEvent: {}
+[3.129999] (-) TimerEvent: {}
+[3.231567] (-) TimerEvent: {}
+[3.332587] (-) TimerEvent: {}
+[3.434633] (-) TimerEvent: {}
+[3.536685] (-) TimerEvent: {}
+[3.637521] (-) TimerEvent: {}
+[3.738436] (-) TimerEvent: {}
+[3.839436] (-) TimerEvent: {}
+[3.940581] (-) TimerEvent: {}
+[4.041660] (-) TimerEvent: {}
+[4.142704] (-) TimerEvent: {}
+[4.244738] (-) TimerEvent: {}
+[4.345788] (-) TimerEvent: {}
+[4.446801] (-) TimerEvent: {}
+[4.547692] (-) TimerEvent: {}
+[4.649818] (-) TimerEvent: {}
+[4.751255] (-) TimerEvent: {}
+[4.852247] (-) TimerEvent: {}
+[4.953242] (-) TimerEvent: {}
+[5.054154] (-) TimerEvent: {}
+[5.155246] (-) TimerEvent: {}
+[5.256191] (-) TimerEvent: {}
+[5.357381] (-) TimerEvent: {}
+[5.459294] (-) TimerEvent: {}
+[5.560756] (-) TimerEvent: {}
+[5.661727] (-) TimerEvent: {}
+[5.762709] (-) TimerEvent: {}
+[5.863786] (-) TimerEvent: {}
+[5.965079] (-) TimerEvent: {}
+[6.066031] (-) TimerEvent: {}
+[6.167117] (-) TimerEvent: {}
+[6.268062] (-) TimerEvent: {}
+[6.369170] (-) TimerEvent: {}
+[6.470062] (-) TimerEvent: {}
+[6.571397] (-) TimerEvent: {}
+[6.672279] (-) TimerEvent: {}
+[6.774261] (-) TimerEvent: {}
+[6.875297] (-) TimerEvent: {}
+[6.976205] (-) TimerEvent: {}
+[7.077158] (-) TimerEvent: {}
+[7.178206] (-) TimerEvent: {}
+[7.279241] (-) TimerEvent: {}
+[7.380264] (-) TimerEvent: {}
+[7.482791] (-) TimerEvent: {}
+[7.583731] (-) TimerEvent: {}
+[7.685130] (-) TimerEvent: {}
+[7.786564] (-) TimerEvent: {}
+[7.887964] (-) TimerEvent: {}
+[7.988921] (-) TimerEvent: {}
+[8.089994] (-) TimerEvent: {}
+[8.191205] (-) TimerEvent: {}
+[8.292095] (-) TimerEvent: {}
+[8.393054] (-) TimerEvent: {}
+[8.493958] (-) TimerEvent: {}
+[8.594939] (-) TimerEvent: {}
+[8.695934] (-) TimerEvent: {}
+[8.796871] (-) TimerEvent: {}
+[8.897740] (-) TimerEvent: {}
+[8.998637] (-) TimerEvent: {}
+[9.099601] (-) TimerEvent: {}
+[9.200526] (-) TimerEvent: {}
+[9.301451] (-) TimerEvent: {}
+[9.402437] (-) TimerEvent: {}
+[9.503344] (-) TimerEvent: {}
+[9.605184] (-) TimerEvent: {}
+[9.706137] (-) TimerEvent: {}
+[9.807071] (-) TimerEvent: {}
+[9.908049] (-) TimerEvent: {}
+[10.009081] (-) TimerEvent: {}
+[10.110088] (-) TimerEvent: {}
+[10.210996] (-) TimerEvent: {}
+[10.311981] (-) TimerEvent: {}
+[10.412894] (-) TimerEvent: {}
+[10.513827] (-) TimerEvent: {}
+[10.617782] (-) TimerEvent: {}
+[10.718719] (-) TimerEvent: {}
+[10.819606] (-) TimerEvent: {}
+[10.920523] (-) TimerEvent: {}
+[11.021440] (-) TimerEvent: {}
+[11.122384] (-) TimerEvent: {}
+[11.223443] (-) TimerEvent: {}
+[11.324441] (-) TimerEvent: {}
+[11.425480] (-) TimerEvent: {}
+[11.526420] (-) TimerEvent: {}
+[11.627361] (-) TimerEvent: {}
+[11.728326] (-) TimerEvent: {}
+[11.829387] (-) TimerEvent: {}
+[11.930361] (-) TimerEvent: {}
+[12.031323] (-) TimerEvent: {}
+[12.132393] (-) TimerEvent: {}
+[12.233768] (-) TimerEvent: {}
+[12.334744] (-) TimerEvent: {}
+[12.435708] (-) TimerEvent: {}
+[12.536669] (-) TimerEvent: {}
+[12.637567] (-) TimerEvent: {}
+[12.738451] (-) TimerEvent: {}
+[12.839362] (-) TimerEvent: {}
+[12.940300] (-) TimerEvent: {}
+[13.041263] (-) TimerEvent: {}
+[13.142146] (-) TimerEvent: {}
+[13.243070] (-) TimerEvent: {}
+[13.344001] (-) TimerEvent: {}
+[13.445014] (-) TimerEvent: {}
+[13.545916] (-) TimerEvent: {}
+[13.646865] (-) TimerEvent: {}
+[13.747823] (-) TimerEvent: {}
+[13.849369] (-) TimerEvent: {}
+[13.952792] (-) TimerEvent: {}
+[14.053705] (-) TimerEvent: {}
+[14.154609] (-) TimerEvent: {}
+[14.255451] (-) TimerEvent: {}
+[14.356376] (-) TimerEvent: {}
+[14.457406] (-) TimerEvent: {}
+[14.558321] (-) TimerEvent: {}
+[14.659214] (-) TimerEvent: {}
+[14.760150] (-) TimerEvent: {}
+[14.861078] (-) TimerEvent: {}
+[14.961991] (-) TimerEvent: {}
+[15.062920] (-) TimerEvent: {}
+[15.163928] (-) TimerEvent: {}
+[15.265063] (-) TimerEvent: {}
+[15.365980] (-) TimerEvent: {}
+[15.466929] (-) TimerEvent: {}
+[15.567894] (-) TimerEvent: {}
+[15.668805] (-) TimerEvent: {}
+[15.770015] (-) TimerEvent: {}
+[15.870911] (-) TimerEvent: {}
+[15.971813] (-) TimerEvent: {}
+[16.072745] (-) TimerEvent: {}
+[16.173635] (-) TimerEvent: {}
+[16.274978] (-) TimerEvent: {}
+[16.375853] (-) TimerEvent: {}
+[16.476724] (-) TimerEvent: {}
+[16.577610] (-) TimerEvent: {}
+[16.678539] (-) TimerEvent: {}
+[16.779479] (-) TimerEvent: {}
+[16.880380] (-) TimerEvent: {}
+[16.981294] (-) TimerEvent: {}
+[17.082248] (-) TimerEvent: {}
+[17.183124] (-) TimerEvent: {}
+[17.284090] (-) TimerEvent: {}
+[17.385001] (-) TimerEvent: {}
+[17.485970] (-) TimerEvent: {}
+[17.586942] (-) TimerEvent: {}
+[17.687943] (-) TimerEvent: {}
+[17.788846] (-) TimerEvent: {}
+[17.889725] (-) TimerEvent: {}
+[17.990622] (-) TimerEvent: {}
+[18.091542] (-) TimerEvent: {}
+[18.192441] (-) TimerEvent: {}
+[18.293893] (-) TimerEvent: {}
+[18.394844] (-) TimerEvent: {}
+[18.495838] (-) TimerEvent: {}
+[18.596868] (-) TimerEvent: {}
+[18.698686] (-) TimerEvent: {}
+[18.719291] (bumperbot_firmware) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libbumperbot_firmware.so\x1b[0m\n'}
+[18.798920] (-) TimerEvent: {}
+[18.900459] (-) TimerEvent: {}
+[19.001896] (-) TimerEvent: {}
+[19.102716] (-) TimerEvent: {}
+[19.204137] (-) TimerEvent: {}
+[19.305635] (-) TimerEvent: {}
+[19.406626] (-) TimerEvent: {}
+[19.507928] (-) TimerEvent: {}
+[19.609377] (-) TimerEvent: {}
+[19.710336] (-) TimerEvent: {}
+[19.811533] (-) TimerEvent: {}
+[19.912592] (-) TimerEvent: {}
+[19.979634] (bumperbot_firmware) StdoutLine: {'line': b'[ 75%] Built target bumperbot_firmware\n'}
+[20.012818] (-) TimerEvent: {}
+[20.114302] (-) TimerEvent: {}
+[20.215148] (-) TimerEvent: {}
+[20.315971] (-) TimerEvent: {}
+[20.416850] (-) TimerEvent: {}
+[20.517655] (-) TimerEvent: {}
+[20.618567] (-) TimerEvent: {}
+[20.719412] (-) TimerEvent: {}
+[20.820265] (-) TimerEvent: {}
+[20.921164] (-) TimerEvent: {}
+[21.022026] (-) TimerEvent: {}
+[21.122942] (-) TimerEvent: {}
+[21.223806] (-) TimerEvent: {}
+[21.324735] (-) TimerEvent: {}
+[21.425565] (-) TimerEvent: {}
+[21.526365] (-) TimerEvent: {}
+[21.627174] (-) TimerEvent: {}
+[21.728030] (-) TimerEvent: {}
+[21.829023] (-) TimerEvent: {}
+[21.930002] (-) TimerEvent: {}
+[22.032167] (-) TimerEvent: {}
+[22.132990] (-) TimerEvent: {}
+[22.233840] (-) TimerEvent: {}
+[22.334638] (-) TimerEvent: {}
+[22.435480] (-) TimerEvent: {}
+[22.536305] (-) TimerEvent: {}
+[22.637311] (-) TimerEvent: {}
+[22.738268] (-) TimerEvent: {}
+[22.839057] (-) TimerEvent: {}
+[22.939794] (-) TimerEvent: {}
+[23.040503] (-) TimerEvent: {}
+[23.141272] (-) TimerEvent: {}
+[23.242071] (-) TimerEvent: {}
+[23.342880] (-) TimerEvent: {}
+[23.443702] (-) TimerEvent: {}
+[23.544569] (-) TimerEvent: {}
+[23.645388] (-) TimerEvent: {}
+[23.746217] (-) TimerEvent: {}
+[23.847273] (-) TimerEvent: {}
+[23.948719] (-) TimerEvent: {}
+[24.050032] (-) TimerEvent: {}
+[24.150903] (-) TimerEvent: {}
+[24.251748] (-) TimerEvent: {}
+[24.352609] (-) TimerEvent: {}
+[24.453399] (-) TimerEvent: {}
+[24.554240] (-) TimerEvent: {}
+[24.655166] (-) TimerEvent: {}
+[24.756260] (-) TimerEvent: {}
+[24.857921] (-) TimerEvent: {}
+[24.958761] (-) TimerEvent: {}
+[25.059610] (-) TimerEvent: {}
+[25.160466] (-) TimerEvent: {}
+[25.261467] (-) TimerEvent: {}
+[25.362211] (-) TimerEvent: {}
+[25.463042] (-) TimerEvent: {}
+[25.563865] (-) TimerEvent: {}
+[25.664712] (-) TimerEvent: {}
+[25.765577] (-) TimerEvent: {}
+[25.866358] (-) TimerEvent: {}
+[25.967199] (-) TimerEvent: {}
+[26.068023] (-) TimerEvent: {}
+[26.168819] (-) TimerEvent: {}
+[26.269653] (-) TimerEvent: {}
+[26.370445] (-) TimerEvent: {}
+[26.471272] (-) TimerEvent: {}
+[26.572070] (-) TimerEvent: {}
+[26.672967] (-) TimerEvent: {}
+[26.773765] (-) TimerEvent: {}
+[26.874550] (-) TimerEvent: {}
+[26.975352] (-) TimerEvent: {}
+[27.076158] (-) TimerEvent: {}
+[27.177032] (-) TimerEvent: {}
+[27.277806] (-) TimerEvent: {}
+[27.378563] (-) TimerEvent: {}
+[27.479361] (-) TimerEvent: {}
+[27.580151] (-) TimerEvent: {}
+[27.681024] (-) TimerEvent: {}
+[27.781802] (-) TimerEvent: {}
+[27.882576] (-) TimerEvent: {}
+[27.983369] (-) TimerEvent: {}
+[28.084187] (-) TimerEvent: {}
+[28.185062] (-) TimerEvent: {}
+[28.285854] (-) TimerEvent: {}
+[28.386653] (-) TimerEvent: {}
+[28.487482] (-) TimerEvent: {}
+[28.588343] (-) TimerEvent: {}
+[28.689271] (-) TimerEvent: {}
+[28.790059] (-) TimerEvent: {}
+[28.890866] (-) TimerEvent: {}
+[28.991654] (-) TimerEvent: {}
+[29.092446] (-) TimerEvent: {}
+[29.193282] (-) TimerEvent: {}
+[29.294064] (-) TimerEvent: {}
+[29.394861] (-) TimerEvent: {}
+[29.495626] (-) TimerEvent: {}
+[29.596434] (-) TimerEvent: {}
+[29.697292] (-) TimerEvent: {}
+[29.798075] (-) TimerEvent: {}
+[29.898891] (-) TimerEvent: {}
+[29.999780] (-) TimerEvent: {}
+[30.104759] (-) TimerEvent: {}
+[30.205570] (-) TimerEvent: {}
+[30.306399] (-) TimerEvent: {}
+[30.407215] (-) TimerEvent: {}
+[30.508030] (-) TimerEvent: {}
+[30.608852] (-) TimerEvent: {}
+[30.709650] (-) TimerEvent: {}
+[30.810519] (-) TimerEvent: {}
+[30.911316] (-) TimerEvent: {}
+[31.012137] (-) TimerEvent: {}
+[31.112948] (-) TimerEvent: {}
+[31.213744] (-) TimerEvent: {}
+[31.314590] (-) TimerEvent: {}
+[31.415371] (-) TimerEvent: {}
+[31.516192] (-) TimerEvent: {}
+[31.617037] (-) TimerEvent: {}
+[31.717854] (-) TimerEvent: {}
+[31.818679] (-) TimerEvent: {}
+[31.919470] (-) TimerEvent: {}
+[32.020261] (-) TimerEvent: {}
+[32.121077] (-) TimerEvent: {}
+[32.221871] (-) TimerEvent: {}
+[32.322740] (-) TimerEvent: {}
+[32.423572] (-) TimerEvent: {}
+[32.524369] (-) TimerEvent: {}
+[32.625212] (-) TimerEvent: {}
+[32.725994] (-) TimerEvent: {}
+[32.826794] (-) TimerEvent: {}
+[32.927598] (-) TimerEvent: {}
+[33.028445] (-) TimerEvent: {}
+[33.129276] (-) TimerEvent: {}
+[33.230106] (-) TimerEvent: {}
+[33.330960] (-) TimerEvent: {}
+[33.431761] (-) TimerEvent: {}
+[33.532594] (-) TimerEvent: {}
+[33.633368] (-) TimerEvent: {}
+[33.734173] (-) TimerEvent: {}
+[33.834987] (-) TimerEvent: {}
+[33.935734] (-) TimerEvent: {}
+[34.036495] (-) TimerEvent: {}
+[34.137374] (-) TimerEvent: {}
+[34.238179] (-) TimerEvent: {}
+[34.338968] (-) TimerEvent: {}
+[34.439755] (-) TimerEvent: {}
+[34.540603] (-) TimerEvent: {}
+[34.641471] (-) TimerEvent: {}
+[34.742274] (-) TimerEvent: {}
+[34.843047] (-) TimerEvent: {}
+[34.943821] (-) TimerEvent: {}
+[35.044664] (-) TimerEvent: {}
+[35.145915] (-) TimerEvent: {}
+[35.246953] (-) TimerEvent: {}
+[35.347925] (-) TimerEvent: {}
+[35.448705] (-) TimerEvent: {}
+[35.549598] (-) TimerEvent: {}
+[35.650726] (-) TimerEvent: {}
+[35.751802] (-) TimerEvent: {}
+[35.852633] (-) TimerEvent: {}
+[35.953465] (-) TimerEvent: {}
+[36.054250] (-) TimerEvent: {}
+[36.155036] (-) TimerEvent: {}
+[36.255842] (-) TimerEvent: {}
+[36.356678] (-) TimerEvent: {}
+[36.457512] (-) TimerEvent: {}
+[36.558348] (-) TimerEvent: {}
+[36.659239] (-) TimerEvent: {}
+[36.760176] (-) TimerEvent: {}
+[36.861424] (-) TimerEvent: {}
+[36.962223] (-) TimerEvent: {}
+[37.063033] (-) TimerEvent: {}
+[37.163890] (-) TimerEvent: {}
+[37.264716] (-) TimerEvent: {}
+[37.365471] (-) TimerEvent: {}
+[37.466230] (-) TimerEvent: {}
+[37.567020] (-) TimerEvent: {}
+[37.667807] (-) TimerEvent: {}
+[37.768692] (-) TimerEvent: {}
+[37.869534] (-) TimerEvent: {}
+[37.970762] (-) TimerEvent: {}
+[38.072037] (-) TimerEvent: {}
+[38.172940] (-) TimerEvent: {}
+[38.274192] (-) TimerEvent: {}
+[38.375284] (-) TimerEvent: {}
+[38.476786] (-) TimerEvent: {}
+[38.577487] (-) TimerEvent: {}
+[38.643090] (bumperbot_firmware) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_serial_transmitter\x1b[0m\n'}
+[38.677664] (-) TimerEvent: {}
+[38.778507] (-) TimerEvent: {}
+[38.879584] (-) TimerEvent: {}
+[38.980573] (-) TimerEvent: {}
+[39.081718] (-) TimerEvent: {}
+[39.183109] (-) TimerEvent: {}
+[39.284125] (-) TimerEvent: {}
+[39.385203] (-) TimerEvent: {}
+[39.486353] (-) TimerEvent: {}
+[39.587583] (-) TimerEvent: {}
+[39.688346] (-) TimerEvent: {}
+[39.789137] (-) TimerEvent: {}
+[39.890224] (-) TimerEvent: {}
+[39.991554] (-) TimerEvent: {}
+[40.092716] (-) TimerEvent: {}
+[40.193581] (-) TimerEvent: {}
+[40.294278] (-) TimerEvent: {}
+[40.395153] (-) TimerEvent: {}
+[40.403817] (bumperbot_firmware) StdoutLine: {'line': b'[100%] Built target simple_serial_transmitter\n'}
+[40.449054] (bumperbot_firmware) CommandEnded: {'returncode': 0}
+[40.452776] (bumperbot_firmware) JobProgress: {'identifier': 'bumperbot_firmware', 'progress': 'install'}
+[40.487492] (bumperbot_firmware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware'], 'cwd': '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'chaitanya'), ('SSH_AGENT_PID', '1679'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chaitanya'), ('OLDPWD', '/home/chaitanya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1788'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chaitanya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chaitanya:@/tmp/.ICE-unix/1762,unix/chaitanya:/tmp/.ICE-unix/1762'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fb81c64a_ca39_489b_b04a_d6313e721c3c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[40.496911] (-) TimerEvent: {}
+[40.522693] (bumperbot_firmware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.523862] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/src/BumperbotHardware.xml\n'}
+[40.531546] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so\n'}
+[40.536253] (bumperbot_firmware) StdoutLine: {'line': b'-- Set runtime path of "/home/chaitanya/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so" to ""\n'}
+[40.538276] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter\n'}
+[40.569368] (bumperbot_firmware) StdoutLine: {'line': b'-- Set runtime path of "/home/chaitanya/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter" to ""\n'}
+[40.570268] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/include\n'}
+[40.570942] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/include/bumperbot_firmware\n'}
+[40.571832] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/include/bumperbot_firmware/bumperbot_interface.hpp\n'}
+[40.572883] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/BumperbotHardware.xml\n'}
+[40.574319] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh\n'}
+[40.576201] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv\n'}
+[40.578208] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware\n'}
+[40.580087] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware\n'}
+[40.582310] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh\n'}
+[40.583288] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv\n'}
+[40.585390] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh\n'}
+[40.586378] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv\n'}
+[40.587639] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash\n'}
+[40.588998] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh\n'}
+[40.590699] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh\n'}
+[40.591891] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv\n'}
+[40.593260] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv\n'}
+[40.594998] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware\n'}
+[40.596891] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware\n'}
+[40.597543] (-) TimerEvent: {}
+[40.598924] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[40.600484] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[40.602038] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[40.603489] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake\n'}
+[40.605604] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake\n'}
+[40.606522] (bumperbot_firmware) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml\n'}
+[40.613081] (bumperbot_firmware) CommandEnded: {'returncode': 0}
+[40.697727] (-) TimerEvent: {}
+[40.752258] (bumperbot_firmware) JobEnded: {'identifier': 'bumperbot_firmware', 'rc': 0}
+[40.757796] (-) EventReactorShutdown: {}

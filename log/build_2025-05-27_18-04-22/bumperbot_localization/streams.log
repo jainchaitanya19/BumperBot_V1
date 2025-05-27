@@ -1,0 +1,53 @@
+[0.165s] Invoking command in '/home/chaitanya/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chaitanya/bumperbot_ws/build/bumperbot_localization -- -j4 -l4
+[0.886s] [ 50%] Built target kalman_filter
+[0.924s] [ 50%] Built target ament_cmake_python_copy_bumperbot_localization
+[1.019s] [100%] Built target imu_republisher
+[3.651s] running egg_info
+[3.658s] writing bumperbot_localization.egg-info/PKG-INFO
+[3.660s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[3.662s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[3.679s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[3.694s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[4.023s] [100%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[4.060s] Invoked command in '/home/chaitanya/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chaitanya/bumperbot_ws/build/bumperbot_localization -- -j4 -l4
+[4.064s] Invoking command in '/home/chaitanya/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chaitanya/bumperbot_ws/build/bumperbot_localization
+[4.078s] -- Install configuration: ""
+[4.079s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[4.080s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[4.080s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info
+[4.080s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[4.081s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/top_level.txt
+[4.098s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.098s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.099s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization
+[4.099s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/kalman_filter.py
+[4.100s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/__init__.py
+[4.101s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/imu_republisher.py
+[4.457s] Listing '/home/chaitanya/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization'...
+[4.491s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/include/include
+[4.492s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization
+[4.495s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+[4.496s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter
+[4.526s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
+[4.530s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch
+[4.530s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+[4.531s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config
+[4.532s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+[4.532s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[4.533s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[4.538s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[4.540s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[4.542s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[4.544s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[4.547s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[4.547s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[4.548s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[4.548s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[4.549s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[4.549s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[4.553s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[4.556s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[4.556s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[4.556s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[4.557s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[4.591s] Invoked command in '/home/chaitanya/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chaitanya/bumperbot_ws/build/bumperbot_localization

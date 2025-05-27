@@ -72,7 +72,7 @@ install(
 
 # Install Plugin XML
 install(FILES
-  BumperbotHardward.xml
+  src/BumperbotHardware.xml
   DESTINATION share/${PROJECT_NAME}
 )
 

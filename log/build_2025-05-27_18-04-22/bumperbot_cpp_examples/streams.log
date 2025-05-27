@@ -1,0 +1,40 @@
+[0.076s] Invoking command in '/home/chaitanya/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chaitanya/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[0.495s] [ 12%] Built target simple_subscriber
+[0.529s] [ 25%] Built target simple_publisher
+[0.547s] [ 37%] Built target simple_parameter
+[0.547s] [ 50%] Built target simple_turtlesim_kinematics
+[0.737s] [ 62%] Built target simple_service_client
+[0.742s] [ 75%] Built target simple_service_server
+[0.793s] [ 87%] Built target simple_lifecycle_node
+[0.822s] [100%] Built target simple_tf_kinematics
+[1.904s] Invoked command in '/home/chaitanya/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chaitanya/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[1.918s] Invoking command in '/home/chaitanya/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chaitanya/bumperbot_ws/build/bumperbot_cpp_examples
+[1.971s] -- Install configuration: ""
+[1.974s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/include/include
+[1.975s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[1.976s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[1.976s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[1.976s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[1.977s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[1.977s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[1.979s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[1.979s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
+[1.981s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client
+[1.984s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[1.987s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node
+[1.989s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[1.989s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[1.990s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[1.991s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[1.992s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[1.998s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[2.001s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[2.001s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[2.002s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[2.003s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[2.004s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[2.010s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[2.011s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[2.012s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[2.012s] -- Up-to-date: /home/chaitanya/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[2.013s] Invoked command in '/home/chaitanya/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chaitanya/bumperbot_ws/build/bumperbot_cpp_examples

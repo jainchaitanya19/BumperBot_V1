@@ -1,0 +1,37 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/transmitter.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/BumperbotHardware.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libbumperbot_firmware.so[0m
+[ 75%] Built target bumperbot_firmware
+[100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[100%] Built target simple_serial_transmitter
+-- Install configuration: ""
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/src/BumperbotHardware.xml
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+-- Set runtime path of "/home/chaitanya/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so" to ""
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+-- Set runtime path of "/home/chaitanya/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter" to ""
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/include
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/include/bumperbot_firmware
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/include/bumperbot_firmware/bumperbot_interface.hpp
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/BumperbotHardware.xml
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml

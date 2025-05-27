@@ -1,0 +1,68 @@
+[0.128s] Invoking command in '/home/chaitanya/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chaitanya/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[0.646s] [ 25%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[0.662s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.911s] [ 50%] Built target ament_cmake_python_copy_bumperbot_controller
+[5.180s] running egg_info
+[5.185s] creating bumperbot_controller.egg-info
+[5.188s] writing bumperbot_controller.egg-info/PKG-INFO
+[5.189s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[5.190s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[5.190s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[5.244s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[5.259s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[5.796s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[59.456s] [ 75%] [32m[1mLinking CXX executable noisy_controller[0m
+[62.710s] [ 75%] Built target noisy_controller
+[77.258s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[80.614s] [100%] Built target simple_controller
+[80.683s] Invoked command in '/home/chaitanya/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chaitanya/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[80.718s] Invoking command in '/home/chaitanya/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chaitanya/bumperbot_ws/build/bumperbot_controller
+[80.753s] -- Install configuration: ""
+[80.761s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[80.764s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[80.767s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[80.769s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[80.771s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[80.773s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[80.775s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[80.777s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[80.780s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[80.786s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[80.787s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py
+[81.199s] Listing '/home/chaitanya/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[81.201s] Compiling '/home/chaitanya/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py'...
+[81.202s] Compiling '/home/chaitanya/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py'...
+[81.204s] Compiling '/home/chaitanya/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py'...
+[81.234s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/include/include
+[81.249s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[81.253s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[81.258s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[81.268s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[81.320s] -- Set runtime path of "/home/chaitanya/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+[81.321s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[81.368s] -- Set runtime path of "/home/chaitanya/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller" to ""
+[81.369s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[81.373s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[81.391s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[81.402s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[81.409s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[81.420s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[81.424s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[81.440s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[81.441s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[81.455s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[81.461s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[81.484s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[81.488s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[81.491s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[81.499s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[81.506s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[81.511s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[81.513s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[81.518s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[81.521s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[81.526s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[81.532s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[81.535s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[81.546s] -- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[81.552s] Invoked command in '/home/chaitanya/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chaitanya/bumperbot_ws/build/bumperbot_controller

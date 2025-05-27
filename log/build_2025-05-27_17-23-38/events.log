@@ -1,0 +1,772 @@
+[0.000000] (-) TimerEvent: {}
+[0.001300] (bumperbot_controller) JobQueued: {'identifier': 'bumperbot_controller', 'dependencies': OrderedDict()}
+[0.001911] (bumperbot_description) JobQueued: {'identifier': 'bumperbot_description', 'dependencies': OrderedDict()}
+[0.002004] (bumperbot_firmware) JobQueued: {'identifier': 'bumperbot_firmware', 'dependencies': OrderedDict()}
+[0.002082] (bumperbot_localization) JobQueued: {'identifier': 'bumperbot_localization', 'dependencies': OrderedDict()}
+[0.002157] (bumperbot_msgs) JobQueued: {'identifier': 'bumperbot_msgs', 'dependencies': OrderedDict()}
+[0.002234] (bumperbot_cpp_examples) JobQueued: {'identifier': 'bumperbot_cpp_examples', 'dependencies': OrderedDict([('bumperbot_msgs', '/home/chaitanya/bumperbot_ws/install/bumperbot_msgs')])}
+[0.002317] (bumperbot_py_examples) JobQueued: {'identifier': 'bumperbot_py_examples', 'dependencies': OrderedDict([('bumperbot_msgs', '/home/chaitanya/bumperbot_ws/install/bumperbot_msgs')])}
+[0.002397] (bumperbot_msgs) JobStarted: {'identifier': 'bumperbot_msgs'}
+[0.041410] (bumperbot_controller) JobStarted: {'identifier': 'bumperbot_controller'}
+[0.078692] (bumperbot_description) JobStarted: {'identifier': 'bumperbot_description'}
+[0.094986] (bumperbot_firmware) JobStarted: {'identifier': 'bumperbot_firmware'}
+[0.099954] (-) TimerEvent: {}
+[0.124691] (bumperbot_msgs) JobProgress: {'identifier': 'bumperbot_msgs', 'progress': 'cmake'}
+[0.128298] (bumperbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/chaitanya/bumperbot_ws/src/bumperbot_msgs', '-DCMAKE_INSTALL_PREFIX=/home/chaitanya/bumperbot_ws/install/bumperbot_msgs'], 'cwd': '/home/chaitanya/bumperbot_ws/build/bumperbot_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'chaitanya'), ('SSH_AGENT_PID', '1661'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chaitanya'), ('OLDPWD', '/home/chaitanya'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1510'), ('SYSTEMD_EXEC_PID', '1772'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8234'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chaitanya'), ('JOURNAL_STREAM', '8:26861'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chaitanya:@/tmp/.ICE-unix/1741,unix/chaitanya:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', 'c57340afc286450ba31926b8d1c40098'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c8bfe915-84d1-438a-8e22-ee01c716336f'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chaitanya/bumperbot_ws/build/bumperbot_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.154972] (bumperbot_controller) JobProgress: {'identifier': 'bumperbot_controller', 'progress': 'cmake'}
+[0.166454] (bumperbot_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/chaitanya/bumperbot_ws/src/bumperbot_controller', '-DCMAKE_INSTALL_PREFIX=/home/chaitanya/bumperbot_ws/install/bumperbot_controller'], 'cwd': '/home/chaitanya/bumperbot_ws/build/bumperbot_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'chaitanya'), ('SSH_AGENT_PID', '1661'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chaitanya'), ('OLDPWD', '/home/chaitanya'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1510'), ('SYSTEMD_EXEC_PID', '1772'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8234'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chaitanya'), ('JOURNAL_STREAM', '8:26861'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chaitanya:@/tmp/.ICE-unix/1741,unix/chaitanya:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', 'c57340afc286450ba31926b8d1c40098'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c8bfe915-84d1-438a-8e22-ee01c716336f'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chaitanya/bumperbot_ws/build/bumperbot_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.184402] (bumperbot_description) JobProgress: {'identifier': 'bumperbot_description', 'progress': 'cmake'}
+[0.200202] (-) TimerEvent: {}
+[0.202397] (bumperbot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/chaitanya/bumperbot_ws/src/bumperbot_description', '-DCMAKE_INSTALL_PREFIX=/home/chaitanya/bumperbot_ws/install/bumperbot_description'], 'cwd': '/home/chaitanya/bumperbot_ws/build/bumperbot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'chaitanya'), ('SSH_AGENT_PID', '1661'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chaitanya'), ('OLDPWD', '/home/chaitanya'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1510'), ('SYSTEMD_EXEC_PID', '1772'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8234'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chaitanya'), ('JOURNAL_STREAM', '8:26861'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chaitanya:@/tmp/.ICE-unix/1741,unix/chaitanya:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', 'c57340afc286450ba31926b8d1c40098'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c8bfe915-84d1-438a-8e22-ee01c716336f'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chaitanya/bumperbot_ws/build/bumperbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.268289] (bumperbot_firmware) JobProgress: {'identifier': 'bumperbot_firmware', 'progress': 'cmake'}
+[0.277855] (bumperbot_firmware) Command: {'cmd': ['/usr/bin/cmake', '/home/chaitanya/bumperbot_ws/src/bumperbot_firmware', '-DCMAKE_INSTALL_PREFIX=/home/chaitanya/bumperbot_ws/install/bumperbot_firmware'], 'cwd': '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'chaitanya'), ('SSH_AGENT_PID', '1661'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chaitanya'), ('OLDPWD', '/home/chaitanya'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1510'), ('SYSTEMD_EXEC_PID', '1772'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8234'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chaitanya'), ('JOURNAL_STREAM', '8:26861'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chaitanya:@/tmp/.ICE-unix/1741,unix/chaitanya:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', 'c57340afc286450ba31926b8d1c40098'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c8bfe915-84d1-438a-8e22-ee01c716336f'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.300606] (-) TimerEvent: {}
+[0.403186] (-) TimerEvent: {}
+[0.511706] (-) TimerEvent: {}
+[0.613207] (-) TimerEvent: {}
+[0.722858] (-) TimerEvent: {}
+[0.823858] (-) TimerEvent: {}
+[0.928842] (-) TimerEvent: {}
+[1.029727] (-) TimerEvent: {}
+[1.130799] (-) TimerEvent: {}
+[1.231718] (-) TimerEvent: {}
+[1.333548] (-) TimerEvent: {}
+[1.434752] (-) TimerEvent: {}
+[1.538822] (-) TimerEvent: {}
+[1.606373] (bumperbot_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.610878] (bumperbot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.639317] (-) TimerEvent: {}
+[1.641156] (bumperbot_firmware) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.657957] (bumperbot_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.739411] (-) TimerEvent: {}
+[1.844211] (-) TimerEvent: {}
+[1.945122] (-) TimerEvent: {}
+[2.046147] (-) TimerEvent: {}
+[2.147059] (-) TimerEvent: {}
+[2.248086] (-) TimerEvent: {}
+[2.349437] (-) TimerEvent: {}
+[2.450998] (-) TimerEvent: {}
+[2.547732] (bumperbot_firmware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.551252] (-) TimerEvent: {}
+[2.582558] (bumperbot_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.583455] (bumperbot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.662724] (bumperbot_firmware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.663347] (-) TimerEvent: {}
+[2.663860] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.664631] (bumperbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.666358] (bumperbot_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.751865] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.766804] (-) TimerEvent: {}
+[2.870743] (-) TimerEvent: {}
+[2.972021] (-) TimerEvent: {}
+[3.075368] (-) TimerEvent: {}
+[3.178623] (-) TimerEvent: {}
+[3.280415] (-) TimerEvent: {}
+[3.389567] (-) TimerEvent: {}
+[3.454608] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.489809] (-) TimerEvent: {}
+[3.539912] (bumperbot_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.545217] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.549411] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.606995] (bumperbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.607602] (-) TimerEvent: {}
+[3.610491] (bumperbot_firmware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.623245] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.645914] (bumperbot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.647949] (bumperbot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.651960] (bumperbot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.661241] (bumperbot_firmware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.661735] (bumperbot_firmware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.662102] (bumperbot_firmware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.674091] (bumperbot_firmware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.696490] (bumperbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.710706] (-) TimerEvent: {}
+[3.811636] (-) TimerEvent: {}
+[3.852978] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.917565] (bumperbot_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.918468] (-) TimerEvent: {}
+[3.926256] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.927577] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.936346] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.025787] (-) TimerEvent: {}
+[4.126776] (-) TimerEvent: {}
+[4.228125] (-) TimerEvent: {}
+[4.329535] (-) TimerEvent: {}
+[4.431438] (-) TimerEvent: {}
+[4.542726] (-) TimerEvent: {}
+[4.600092] (bumperbot_firmware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.645773] (-) TimerEvent: {}
+[4.658873] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.675854] (bumperbot_firmware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.702161] (bumperbot_firmware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.705974] (bumperbot_firmware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.745999] (-) TimerEvent: {}
+[4.769817] (bumperbot_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.770366] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.770874] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.778246] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.809243] (bumperbot_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.812186] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.815346] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.848916] (-) TimerEvent: {}
+[4.859357] (bumperbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.886978] (bumperbot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.888110] (bumperbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.891059] (bumperbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.949188] (-) TimerEvent: {}
+[4.970491] (bumperbot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.972216] (bumperbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.976785] (bumperbot_firmware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.981766] (bumperbot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.049465] (-) TimerEvent: {}
+[5.150307] (-) TimerEvent: {}
+[5.251736] (-) TimerEvent: {}
+[5.382727] (-) TimerEvent: {}
+[5.483852] (-) TimerEvent: {}
+[5.587037] (-) TimerEvent: {}
+[5.690537] (-) TimerEvent: {}
+[5.794630] (-) TimerEvent: {}
+[5.896133] (-) TimerEvent: {}
+[5.999510] (-) TimerEvent: {}
+[6.102339] (-) TimerEvent: {}
+[6.203946] (-) TimerEvent: {}
+[6.306145] (-) TimerEvent: {}
+[6.407934] (-) TimerEvent: {}
+[6.418242] (bumperbot_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.490920] (bumperbot_firmware) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.514707] (-) TimerEvent: {}
+[6.622782] (-) TimerEvent: {}
+[6.660986] (bumperbot_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.722993] (-) TimerEvent: {}
+[6.826911] (-) TimerEvent: {}
+[6.946709] (bumperbot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.947405] (-) TimerEvent: {}
+[7.048156] (-) TimerEvent: {}
+[7.149046] (-) TimerEvent: {}
+[7.250655] (-) TimerEvent: {}
+[7.352088] (-) TimerEvent: {}
+[7.454141] (-) TimerEvent: {}
+[7.555491] (-) TimerEvent: {}
+[7.656742] (-) TimerEvent: {}
+[7.757923] (-) TimerEvent: {}
+[7.859959] (-) TimerEvent: {}
+[7.965594] (-) TimerEvent: {}
+[7.980303] (bumperbot_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[8.007694] (bumperbot_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.008634] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.066250] (-) TimerEvent: {}
+[8.110702] (bumperbot_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[8.168158] (-) TimerEvent: {}
+[8.269346] (-) TimerEvent: {}
+[8.370237] (-) TimerEvent: {}
+[8.459203] (bumperbot_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.470479] (-) TimerEvent: {}
+[8.571993] (-) TimerEvent: {}
+[8.596622] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.626897] (bumperbot_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.658847] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.672182] (-) TimerEvent: {}
+[8.738965] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.739572] (bumperbot_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.772685] (-) TimerEvent: {}
+[8.867507] (bumperbot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.873090] (-) TimerEvent: {}
+[8.918306] (bumperbot_firmware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.930212] (bumperbot_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.958202] (bumperbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.973372] (-) TimerEvent: {}
+[9.015123] (bumperbot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.073637] (-) TimerEvent: {}
+[9.106248] (bumperbot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.173934] (-) TimerEvent: {}
+[9.196289] (bumperbot_firmware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.206482] (bumperbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.274126] (-) TimerEvent: {}
+[9.318874] (bumperbot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.374789] (-) TimerEvent: {}
+[9.419546] (bumperbot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.475151] (-) TimerEvent: {}
+[9.582917] (-) TimerEvent: {}
+[9.692312] (-) TimerEvent: {}
+[9.753772] (bumperbot_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[9.795505] (-) TimerEvent: {}
+[9.896659] (-) TimerEvent: {}
+[9.902370] (bumperbot_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.903175] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.968227] (bumperbot_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.969548] (bumperbot_firmware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.997235] (-) TimerEvent: {}
+[10.102894] (-) TimerEvent: {}
+[10.206657] (-) TimerEvent: {}
+[10.311005] (-) TimerEvent: {}
+[10.418686] (-) TimerEvent: {}
+[10.526685] (-) TimerEvent: {}
+[10.595524] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.626907] (-) TimerEvent: {}
+[10.727813] (-) TimerEvent: {}
+[10.764564] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.791374] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.809695] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[10.828270] (-) TimerEvent: {}
+[10.904726] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.930741] (-) TimerEvent: {}
+[10.958934] (bumperbot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.021838] (bumperbot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[11.030951] (-) TimerEvent: {}
+[11.075888] (bumperbot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/chaitanya/bumperbot_ws/build/bumperbot_description\n'}
+[11.138708] (-) TimerEvent: {}
+[11.188110] (bumperbot_description) CommandEnded: {'returncode': 0}
+[11.190143] (bumperbot_description) JobProgress: {'identifier': 'bumperbot_description', 'progress': 'build'}
+[11.190322] (bumperbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chaitanya/bumperbot_ws/build/bumperbot_description', '--', '-j4', '-l4'], 'cwd': '/home/chaitanya/bumperbot_ws/build/bumperbot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'chaitanya'), ('SSH_AGENT_PID', '1661'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chaitanya'), ('OLDPWD', '/home/chaitanya'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1510'), ('SYSTEMD_EXEC_PID', '1772'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8234'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chaitanya'), ('JOURNAL_STREAM', '8:26861'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chaitanya:@/tmp/.ICE-unix/1741,unix/chaitanya:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', 'c57340afc286450ba31926b8d1c40098'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c8bfe915-84d1-438a-8e22-ee01c716336f'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chaitanya/bumperbot_ws/build/bumperbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.244207] (-) TimerEvent: {}
+[11.346848] (bumperbot_firmware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.348364] (-) TimerEvent: {}
+[11.451680] (bumperbot_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.452442] (-) TimerEvent: {}
+[11.554721] (-) TimerEvent: {}
+[11.662586] (-) TimerEvent: {}
+[11.777056] (bumperbot_description) CommandEnded: {'returncode': 0}
+[11.779402] (-) TimerEvent: {}
+[11.780652] (bumperbot_description) JobProgress: {'identifier': 'bumperbot_description', 'progress': 'install'}
+[11.879708] (-) TimerEvent: {}
+[11.884870] (bumperbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chaitanya/bumperbot_ws/build/bumperbot_description'], 'cwd': '/home/chaitanya/bumperbot_ws/build/bumperbot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'chaitanya'), ('SSH_AGENT_PID', '1661'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chaitanya'), ('OLDPWD', '/home/chaitanya'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1510'), ('SYSTEMD_EXEC_PID', '1772'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8234'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chaitanya'), ('JOURNAL_STREAM', '8:26861'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chaitanya:@/tmp/.ICE-unix/1741,unix/chaitanya:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', 'c57340afc286450ba31926b8d1c40098'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c8bfe915-84d1-438a-8e22-ee01c716336f'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chaitanya/bumperbot_ws/build/bumperbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.912231] (bumperbot_firmware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[11.950921] (bumperbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.952399] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch\n'}
+[11.952972] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py\n'}
+[11.959851] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py\n'}
+[11.967595] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes\n'}
+[11.968386] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL\n'}
+[11.979936] (-) TimerEvent: {}
+[11.988339] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL\n'}
+[12.005147] (bumperbot_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.008452] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL\n'}
+[12.044915] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL\n'}
+[12.082698] (-) TimerEvent: {}
+[12.183541] (-) TimerEvent: {}
+[12.285609] (-) TimerEvent: {}
+[12.418699] (-) TimerEvent: {}
+[12.488146] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL\n'}
+[12.519096] (-) TimerEvent: {}
+[12.519947] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL\n'}
+[12.538811] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf\n'}
+[12.540963] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro\n'}
+[12.551172] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro\n'}
+[12.557019] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro\n'}
+[12.566760] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz\n'}
+[12.568932] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz\n'}
+[12.573710] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description\n'}
+[12.577714] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description\n'}
+[12.593545] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh\n'}
+[12.594306] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv\n'}
+[12.609026] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh\n'}
+[12.614687] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv\n'}
+[12.617065] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash\n'}
+[12.617740] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh\n'}
+[12.629724] (bumperbot_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.630372] (-) TimerEvent: {}
+[12.643009] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh\n'}
+[12.643694] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv\n'}
+[12.644908] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv\n'}
+[12.651993] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description\n'}
+[12.661937] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake\n'}
+[12.666243] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake\n'}
+[12.676939] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/chaitanya/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml\n'}
+[12.719744] (bumperbot_description) CommandEnded: {'returncode': 0}
+[12.733868] (-) TimerEvent: {}
+[12.800790] (bumperbot_firmware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.838713] (-) TimerEvent: {}
+[12.883218] (bumperbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[12.893655] (bumperbot_firmware) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.900322] (bumperbot_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.942733] (-) TimerEvent: {}
+[13.054315] (-) TimerEvent: {}
+[13.090367] (bumperbot_description) JobEnded: {'identifier': 'bumperbot_description', 'rc': 0}
+[13.092667] (bumperbot_localization) JobStarted: {'identifier': 'bumperbot_localization'}
+[13.154681] (-) TimerEvent: {}
+[13.188410] (bumperbot_localization) JobProgress: {'identifier': 'bumperbot_localization', 'progress': 'cmake'}
+[13.199362] (bumperbot_localization) Command: {'cmd': ['/usr/bin/cmake', '/home/chaitanya/bumperbot_ws/src/bumperbot_localization', '-DCMAKE_INSTALL_PREFIX=/home/chaitanya/bumperbot_ws/install/bumperbot_localization'], 'cwd': '/home/chaitanya/bumperbot_ws/build/bumperbot_localization', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'chaitanya'), ('SSH_AGENT_PID', '1661'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chaitanya'), ('OLDPWD', '/home/chaitanya'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1510'), ('SYSTEMD_EXEC_PID', '1772'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8234'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chaitanya'), ('JOURNAL_STREAM', '8:26861'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chaitanya:@/tmp/.ICE-unix/1741,unix/chaitanya:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', 'c57340afc286450ba31926b8d1c40098'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c8bfe915-84d1-438a-8e22-ee01c716336f'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chaitanya/bumperbot_ws/build/bumperbot_localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.255129] (-) TimerEvent: {}
+[13.362415] (-) TimerEvent: {}
+[13.471047] (-) TimerEvent: {}
+[13.575277] (-) TimerEvent: {}
+[13.684802] (-) TimerEvent: {}
+[13.724444] (bumperbot_firmware) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.728593] (bumperbot_firmware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.785110] (-) TimerEvent: {}
+[13.810139] (bumperbot_localization) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[13.870248] (bumperbot_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.873234] (bumperbot_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.894949] (-) TimerEvent: {}
+[14.000298] (-) TimerEvent: {}
+[14.116851] (-) TimerEvent: {}
+[14.217793] (-) TimerEvent: {}
+[14.323280] (-) TimerEvent: {}
+[14.424332] (-) TimerEvent: {}
+[14.525363] (-) TimerEvent: {}
+[14.626300] (-) TimerEvent: {}
+[14.697242] (bumperbot_localization) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[14.726684] (-) TimerEvent: {}
+[14.772529] (bumperbot_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[14.838761] (-) TimerEvent: {}
+[14.932601] (bumperbot_firmware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[14.939478] (-) TimerEvent: {}
+[14.963352] (bumperbot_firmware) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[15.042799] (-) TimerEvent: {}
+[15.107327] (bumperbot_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[15.125145] (bumperbot_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[15.142957] (-) TimerEvent: {}
+[15.245281] (-) TimerEvent: {}
+[15.354748] (-) TimerEvent: {}
+[15.462680] (-) TimerEvent: {}
+[15.563650] (-) TimerEvent: {}
+[15.674806] (-) TimerEvent: {}
+[15.722924] (bumperbot_controller) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[15.748146] (bumperbot_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[15.776986] (-) TimerEvent: {}
+[15.782883] (bumperbot_firmware) StdoutLine: {'line': b'-- Found hardware_interface: 2.50.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[15.874708] (bumperbot_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[15.882694] (-) TimerEvent: {}
+[15.938681] (bumperbot_localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[15.939427] (bumperbot_localization) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[15.939976] (bumperbot_localization) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[15.940467] (bumperbot_controller) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[15.982948] (-) TimerEvent: {}
+[15.996805] (bumperbot_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[16.086879] (-) TimerEvent: {}
+[16.190687] (bumperbot_controller) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[16.191358] (-) TimerEvent: {}
+[16.294737] (-) TimerEvent: {}
+[16.402696] (-) TimerEvent: {}
+[16.510731] (bumperbot_controller) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[16.511344] (-) TimerEvent: {}
+[16.612580] (-) TimerEvent: {}
+[16.734686] (-) TimerEvent: {}
+[16.835620] (-) TimerEvent: {}
+[16.938440] (-) TimerEvent: {}
+[17.042677] (-) TimerEvent: {}
+[17.153007] (-) TimerEvent: {}
+[17.239876] (bumperbot_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[17.256477] (-) TimerEvent: {}
+[17.357718] (-) TimerEvent: {}
+[17.359487] (bumperbot_localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[17.360439] (bumperbot_localization) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[17.362235] (bumperbot_localization) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[17.461332] (-) TimerEvent: {}
+[17.476946] (bumperbot_localization) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[17.562772] (-) TimerEvent: {}
+[17.663832] (-) TimerEvent: {}
+[17.765390] (-) TimerEvent: {}
+[17.866814] (-) TimerEvent: {}
+[17.968564] (-) TimerEvent: {}
+[18.019024] (bumperbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[18.068805] (-) TimerEvent: {}
+[18.175099] (-) TimerEvent: {}
+[18.283112] (-) TimerEvent: {}
+[18.384495] (-) TimerEvent: {}
+[18.485909] (-) TimerEvent: {}
+[18.590728] (-) TimerEvent: {}
+[18.692098] (-) TimerEvent: {}
+[18.806702] (-) TimerEvent: {}
+[18.914797] (-) TimerEvent: {}
+[19.030833] (bumperbot_firmware) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[19.040658] (-) TimerEvent: {}
+[19.052175] (bumperbot_firmware) StdoutLine: {'line': b"-- Checking for module 'libserial'\n"}
+[19.146723] (-) TimerEvent: {}
+[19.260853] (-) TimerEvent: {}
+[19.263698] (bumperbot_firmware) StdoutLine: {'line': b'--   Found libserial, version 1.0.0\n'}
+[19.374702] (-) TimerEvent: {}
+[19.473674] (bumperbot_localization) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[19.478731] (-) TimerEvent: {}
+[19.579704] (-) TimerEvent: {}
+[19.681470] (-) TimerEvent: {}
+[19.784794] (-) TimerEvent: {}
+[19.892534] (-) TimerEvent: {}
+[19.994356] (-) TimerEvent: {}
+[20.096436] (-) TimerEvent: {}
+[20.198188] (-) TimerEvent: {}
+[20.299682] (-) TimerEvent: {}
+[20.401797] (-) TimerEvent: {}
+[20.455061] (bumperbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[20.506691] (-) TimerEvent: {}
+[20.546929] (bumperbot_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.574937] (bumperbot_firmware) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.606884] (-) TimerEvent: {}
+[20.708104] (-) TimerEvent: {}
+[20.809206] (-) TimerEvent: {}
+[20.823575] (bumperbot_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[20.862661] (bumperbot_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[20.886834] (bumperbot_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[20.919438] (-) TimerEvent: {}
+[20.978705] (bumperbot_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/chaitanya/bumperbot_ws/build/bumperbot_controller\n'}
+[21.022849] (-) TimerEvent: {}
+[21.097346] (bumperbot_controller) CommandEnded: {'returncode': 0}
+[21.098910] (bumperbot_controller) JobProgress: {'identifier': 'bumperbot_controller', 'progress': 'build'}
+[21.099047] (bumperbot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chaitanya/bumperbot_ws/build/bumperbot_controller', '--', '-j4', '-l4'], 'cwd': '/home/chaitanya/bumperbot_ws/build/bumperbot_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'chaitanya'), ('SSH_AGENT_PID', '1661'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chaitanya'), ('OLDPWD', '/home/chaitanya'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1510'), ('SYSTEMD_EXEC_PID', '1772'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8234'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chaitanya'), ('JOURNAL_STREAM', '8:26861'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chaitanya:@/tmp/.ICE-unix/1741,unix/chaitanya:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', 'c57340afc286450ba31926b8d1c40098'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c8bfe915-84d1-438a-8e22-ee01c716336f'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chaitanya/bumperbot_ws/build/bumperbot_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[21.100796] (bumperbot_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[21.101232] (bumperbot_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[21.101557] (bumperbot_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[21.101943] (bumperbot_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[21.128610] (bumperbot_firmware) StdoutLine: {'line': b'-- Generating done\n'}
+[21.129424] (-) TimerEvent: {}
+[21.200395] (bumperbot_firmware) StdoutLine: {'line': b'-- Build files have been written to: /home/chaitanya/bumperbot_ws/build/bumperbot_firmware\n'}
+[21.237677] (-) TimerEvent: {}
+[21.325060] (bumperbot_firmware) CommandEnded: {'returncode': 0}
+[21.326675] (bumperbot_firmware) JobProgress: {'identifier': 'bumperbot_firmware', 'progress': 'build'}
+[21.326847] (bumperbot_firmware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware', '--', '-j4', '-l4'], 'cwd': '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'chaitanya'), ('SSH_AGENT_PID', '1661'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chaitanya'), ('OLDPWD', '/home/chaitanya'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1510'), ('SYSTEMD_EXEC_PID', '1772'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8234'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chaitanya'), ('JOURNAL_STREAM', '8:26861'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chaitanya:@/tmp/.ICE-unix/1741,unix/chaitanya:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', 'c57340afc286450ba31926b8d1c40098'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c8bfe915-84d1-438a-8e22-ee01c716336f'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chaitanya/bumperbot_ws/build/bumperbot_firmware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[21.344035] (-) TimerEvent: {}
+[21.349455] (bumperbot_localization) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[21.446685] (-) TimerEvent: {}
+[21.459631] (bumperbot_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[21.546884] (-) TimerEvent: {}
+[21.648278] (-) TimerEvent: {}
+[21.749741] (-) TimerEvent: {}
+[21.851080] (-) TimerEvent: {}
+[21.872582] (bumperbot_controller) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o\x1b[0m\n'}
+[21.895755] (bumperbot_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o\x1b[0m\n'}
+[21.954076] (-) TimerEvent: {}
+[22.065721] (-) TimerEvent: {}
+[22.068450] (bumperbot_localization) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[22.084341] (bumperbot_firmware) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/BumperbotHardware.cpp.o\x1b[0m\n'}
+[22.165942] (-) TimerEvent: {}
+[22.207159] (bumperbot_controller) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_bumperbot_controller\n'}
+[22.207706] (bumperbot_firmware) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/transmitter.cpp.o\x1b[0m\n'}
+[22.270691] (-) TimerEvent: {}
+[22.316647] (bumperbot_localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[22.374732] (-) TimerEvent: {}
+[22.490856] (bumperbot_localization) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[22.491490] (-) TimerEvent: {}
+[22.610715] (-) TimerEvent: {}
+[22.714699] (-) TimerEvent: {}
+[22.761263] (bumperbot_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[22.814846] (bumperbot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[22.815434] (-) TimerEvent: {}
+[22.916129] (-) TimerEvent: {}
+[23.029755] (-) TimerEvent: {}
+[23.130884] (-) TimerEvent: {}
+[23.231951] (-) TimerEvent: {}
+[23.334696] (-) TimerEvent: {}
+[23.358806] (bumperbot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[23.446704] (-) TimerEvent: {}
+[23.465455] (bumperbot_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[23.546968] (-) TimerEvent: {}
+[23.589576] (bumperbot_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/chaitanya/bumperbot_ws/build/bumperbot_msgs\n'}
+[23.650712] (-) TimerEvent: {}
+[23.683325] (bumperbot_msgs) CommandEnded: {'returncode': 0}
+[23.684993] (bumperbot_msgs) JobProgress: {'identifier': 'bumperbot_msgs', 'progress': 'build'}
+[23.685148] (bumperbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chaitanya/bumperbot_ws/build/bumperbot_msgs', '--', '-j4', '-l4'], 'cwd': '/home/chaitanya/bumperbot_ws/build/bumperbot_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'chaitanya'), ('SSH_AGENT_PID', '1661'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chaitanya'), ('OLDPWD', '/home/chaitanya'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1510'), ('SYSTEMD_EXEC_PID', '1772'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8234'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chaitanya'), ('JOURNAL_STREAM', '8:26861'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chaitanya:@/tmp/.ICE-unix/1741,unix/chaitanya:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', 'c57340afc286450ba31926b8d1c40098'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c8bfe915-84d1-438a-8e22-ee01c716336f'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chaitanya/bumperbot_ws/build/bumperbot_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[23.750916] (-) TimerEvent: {}
+[23.862741] (-) TimerEvent: {}
+[23.973828] (-) TimerEvent: {}
+[24.082680] (-) TimerEvent: {}
+[24.198739] (-) TimerEvent: {}
+[24.310738] (-) TimerEvent: {}
+[24.411819] (-) TimerEvent: {}
+[24.522739] (-) TimerEvent: {}
+[24.545819] (bumperbot_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[24.596176] (bumperbot_localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[24.630801] (-) TimerEvent: {}
+[24.663253] (bumperbot_localization) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[24.730998] (-) TimerEvent: {}
+[24.832219] (-) TimerEvent: {}
+[24.942706] (-) TimerEvent: {}
+[25.043562] (-) TimerEvent: {}
+[25.145500] (-) TimerEvent: {}
+[25.246749] (-) TimerEvent: {}
+[25.347995] (-) TimerEvent: {}
+[25.448882] (-) TimerEvent: {}
+[25.550173] (-) TimerEvent: {}
+[25.653294] (-) TimerEvent: {}
+[25.744376] (bumperbot_localization) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[25.753509] (-) TimerEvent: {}
+[25.870938] (-) TimerEvent: {}
+[25.974732] (-) TimerEvent: {}
+[26.082716] (-) TimerEvent: {}
+[26.210871] (-) TimerEvent: {}
+[26.318121] (-) TimerEvent: {}
+[26.414954] (bumperbot_localization) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[26.418298] (-) TimerEvent: {}
+[26.523536] (-) TimerEvent: {}
+[26.643061] (-) TimerEvent: {}
+[26.744800] (-) TimerEvent: {}
+[26.850666] (-) TimerEvent: {}
+[26.951595] (-) TimerEvent: {}
+[27.062323] (-) TimerEvent: {}
+[27.163878] (-) TimerEvent: {}
+[27.265269] (-) TimerEvent: {}
+[27.386471] (-) TimerEvent: {}
+[27.487706] (-) TimerEvent: {}
+[27.542009] (bumperbot_localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[27.587948] (-) TimerEvent: {}
+[27.690100] (-) TimerEvent: {}
+[27.802008] (-) TimerEvent: {}
+[27.806355] (bumperbot_localization) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[27.902406] (-) TimerEvent: {}
+[28.007139] (-) TimerEvent: {}
+[28.110727] (-) TimerEvent: {}
+[28.212329] (-) TimerEvent: {}
+[28.324174] (-) TimerEvent: {}
+[28.430760] (-) TimerEvent: {}
+[28.550794] (-) TimerEvent: {}
+[28.658166] (-) TimerEvent: {}
+[28.759225] (-) TimerEvent: {}
+[28.878994] (-) TimerEvent: {}
+[28.987114] (-) TimerEvent: {}
+[29.091375] (-) TimerEvent: {}
+[29.198295] (-) TimerEvent: {}
+[29.303127] (-) TimerEvent: {}
+[29.323000] (bumperbot_localization) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[29.325873] (bumperbot_localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[29.403351] (-) TimerEvent: {}
+[29.508020] (-) TimerEvent: {}
+[29.618804] (-) TimerEvent: {}
+[29.729449] (-) TimerEvent: {}
+[29.838708] (-) TimerEvent: {}
+[29.940148] (-) TimerEvent: {}
+[30.054718] (-) TimerEvent: {}
+[30.155721] (-) TimerEvent: {}
+[30.282769] (-) TimerEvent: {}
+[30.398677] (-) TimerEvent: {}
+[30.503150] (-) TimerEvent: {}
+[30.614715] (-) TimerEvent: {}
+[30.715969] (-) TimerEvent: {}
+[30.817023] (-) TimerEvent: {}
+[30.823544] (bumperbot_localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[30.858183] (bumperbot_localization) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[30.917276] (-) TimerEvent: {}
+[31.019360] (-) TimerEvent: {}
+[31.120650] (-) TimerEvent: {}
+[31.230739] (-) TimerEvent: {}
+[31.350746] (-) TimerEvent: {}
+[31.468195] (-) TimerEvent: {}
+[31.570760] (-) TimerEvent: {}
+[31.682798] (-) TimerEvent: {}
+[31.790721] (-) TimerEvent: {}
+[31.903823] (-) TimerEvent: {}
+[32.014191] (-) TimerEvent: {}
+[32.086692] (bumperbot_localization) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[32.087336] (bumperbot_msgs) StdoutLine: {'line': b'[  2%] Built target bumperbot_msgs__cpp\n'}
+[32.114596] (-) TimerEvent: {}
+[32.132625] (bumperbot_localization) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[32.214794] (-) TimerEvent: {}
+[32.316309] (-) TimerEvent: {}
+[32.418812] (-) TimerEvent: {}
+[32.522754] (-) TimerEvent: {}
+[32.623861] (-) TimerEvent: {}
+[32.717665] (bumperbot_localization) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[32.724144] (-) TimerEvent: {}
+[32.781250] (bumperbot_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_bumperbot_msgs\n'}
+[32.824389] (-) TimerEvent: {}
+[32.925965] (-) TimerEvent: {}
+[33.007640] (bumperbot_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[33.026261] (-) TimerEvent: {}
+[33.146743] (-) TimerEvent: {}
+[33.254804] (-) TimerEvent: {}
+[33.375860] (-) TimerEvent: {}
+[33.479508] (-) TimerEvent: {}
+[33.586718] (-) TimerEvent: {}
+[33.690703] (-) TimerEvent: {}
+[33.792064] (-) TimerEvent: {}
+[33.894782] (-) TimerEvent: {}
+[33.996118] (-) TimerEvent: {}
+[34.106737] (-) TimerEvent: {}
+[34.210737] (-) TimerEvent: {}
+[34.318736] (-) TimerEvent: {}
+[34.419863] (-) TimerEvent: {}
+[34.522132] (-) TimerEvent: {}
+[34.640487] (-) TimerEvent: {}
+[34.770725] (-) TimerEvent: {}
+[34.874743] (-) TimerEvent: {}
+[34.976245] (-) TimerEvent: {}
+[35.101464] (-) TimerEvent: {}
+[35.206381] (-) TimerEvent: {}
+[35.314711] (-) TimerEvent: {}
+[35.415684] (-) TimerEvent: {}
+[35.516945] (-) TimerEvent: {}
+[35.618322] (-) TimerEvent: {}
+[35.720090] (-) TimerEvent: {}
+[35.821466] (-) TimerEvent: {}
+[35.926911] (-) TimerEvent: {}
+[36.029714] (-) TimerEvent: {}
+[36.131062] (-) TimerEvent: {}
+[36.242768] (-) TimerEvent: {}
+[36.358894] (-) TimerEvent: {}
+[36.458702] (bumperbot_localization) StdoutLine: {'line': b'-- Configuring done\n'}
+[36.459472] (-) TimerEvent: {}
+[36.570694] (-) TimerEvent: {}
+[36.690716] (-) TimerEvent: {}
+[36.791843] (-) TimerEvent: {}
+[36.893105] (-) TimerEvent: {}
+[36.992275] (bumperbot_localization) StdoutLine: {'line': b'-- Generating done\n'}
+[36.993232] (-) TimerEvent: {}
+[37.094837] (-) TimerEvent: {}
+[37.171525] (bumperbot_localization) StdoutLine: {'line': b'-- Build files have been written to: /home/chaitanya/bumperbot_ws/build/bumperbot_localization\n'}
+[37.195015] (-) TimerEvent: {}
+[37.298725] (-) TimerEvent: {}
+[37.399920] (-) TimerEvent: {}
+[37.430486] (bumperbot_localization) CommandEnded: {'returncode': 0}
+[37.448549] (bumperbot_localization) JobProgress: {'identifier': 'bumperbot_localization', 'progress': 'build'}
+[37.448835] (bumperbot_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chaitanya/bumperbot_ws/build/bumperbot_localization', '--', '-j4', '-l4'], 'cwd': '/home/chaitanya/bumperbot_ws/build/bumperbot_localization', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'chaitanya'), ('SSH_AGENT_PID', '1661'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chaitanya'), ('OLDPWD', '/home/chaitanya'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1510'), ('SYSTEMD_EXEC_PID', '1772'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8234'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chaitanya'), ('JOURNAL_STREAM', '8:26861'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chaitanya:@/tmp/.ICE-unix/1741,unix/chaitanya:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', 'c57340afc286450ba31926b8d1c40098'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c8bfe915-84d1-438a-8e22-ee01c716336f'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chaitanya/bumperbot_ws/build/bumperbot_localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[37.518146] (-) TimerEvent: {}
+[37.619211] (-) TimerEvent: {}
+[37.722738] (-) TimerEvent: {}
+[37.824359] (-) TimerEvent: {}
+[37.926248] (-) TimerEvent: {}
+[38.054896] (-) TimerEvent: {}
+[38.169661] (-) TimerEvent: {}
+[38.197116] (bumperbot_localization) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o\x1b[0m\n'}
+[38.269902] (-) TimerEvent: {}
+[38.371004] (-) TimerEvent: {}
+[38.490710] (-) TimerEvent: {}
+[38.592203] (-) TimerEvent: {}
+[38.733831] (-) TimerEvent: {}
+[38.838752] (-) TimerEvent: {}
+[38.944425] (-) TimerEvent: {}
+[39.046798] (-) TimerEvent: {}
+[39.150757] (-) TimerEvent: {}
+[39.254731] (-) TimerEvent: {}
+[39.358714] (-) TimerEvent: {}
+[39.466759] (-) TimerEvent: {}
+[39.578723] (-) TimerEvent: {}
+[39.706926] (-) TimerEvent: {}
+[39.822692] (-) TimerEvent: {}
+[39.926741] (-) TimerEvent: {}
+[40.030925] (-) TimerEvent: {}
+[40.134715] (-) TimerEvent: {}
+[40.246189] (-) TimerEvent: {}
+[40.377124] (-) TimerEvent: {}
+[40.482706] (-) TimerEvent: {}
+[40.584232] (-) TimerEvent: {}
+[40.686174] (-) TimerEvent: {}
+[40.787746] (-) TimerEvent: {}
+[40.864189] (bumperbot_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[40.902761] (-) TimerEvent: {}
+[41.004899] (-) TimerEvent: {}
+[41.107470] (-) TimerEvent: {}
+[41.209415] (-) TimerEvent: {}
+[41.311536] (-) TimerEvent: {}
+[41.413008] (-) TimerEvent: {}
+[41.514536] (-) TimerEvent: {}
+[41.616118] (-) TimerEvent: {}
+[41.717670] (-) TimerEvent: {}
+[41.826713] (-) TimerEvent: {}
+[41.927772] (-) TimerEvent: {}
+[42.036030] (-) TimerEvent: {}
+[42.138120] (-) TimerEvent: {}
+[42.239743] (-) TimerEvent: {}
+[42.346700] (-) TimerEvent: {}
+[42.447728] (-) TimerEvent: {}
+[42.550718] (-) TimerEvent: {}
+[42.651675] (-) TimerEvent: {}
+[42.753091] (-) TimerEvent: {}
+[42.858755] (-) TimerEvent: {}
+[42.960282] (-) TimerEvent: {}
+[43.061836] (-) TimerEvent: {}
+[43.176388] (-) TimerEvent: {}
+[43.278343] (-) TimerEvent: {}
+[43.379508] (-) TimerEvent: {}
+[43.480955] (-) TimerEvent: {}
+[43.583325] (-) TimerEvent: {}
+[43.684392] (-) TimerEvent: {}
+[43.785454] (-) TimerEvent: {}
+[43.886482] (-) TimerEvent: {}
+[43.990711] (-) TimerEvent: {}
+[44.106697] (-) TimerEvent: {}
+[44.218858] (-) TimerEvent: {}
+[44.322708] (-) TimerEvent: {}
+[44.426698] (-) TimerEvent: {}
+[44.538740] (-) TimerEvent: {}
+[44.646712] (-) TimerEvent: {}
+[44.754781] (-) TimerEvent: {}
+[44.862705] (-) TimerEvent: {}
+[44.974801] (-) TimerEvent: {}
+[45.091158] (-) TimerEvent: {}
+[45.198750] (-) TimerEvent: {}
+[45.300179] (-) TimerEvent: {}
+[45.411095] (-) TimerEvent: {}
+[45.522684] (-) TimerEvent: {}
+[45.626402] (-) TimerEvent: {}
+[45.738159] (-) TimerEvent: {}
+[45.839615] (-) TimerEvent: {}
+[45.959242] (-) TimerEvent: {}
+[46.061015] (-) TimerEvent: {}
+[46.163810] (-) TimerEvent: {}
+[46.267992] (-) TimerEvent: {}
+[46.369595] (-) TimerEvent: {}
+[46.478802] (-) TimerEvent: {}
+[46.579914] (-) TimerEvent: {}
+[46.681846] (-) TimerEvent: {}
+[46.782914] (-) TimerEvent: {}
+[46.883904] (-) TimerEvent: {}
+[47.014749] (-) TimerEvent: {}
+[47.115902] (-) TimerEvent: {}
+[47.219936] (-) TimerEvent: {}
+[47.321467] (-) TimerEvent: {}
+[47.430684] (-) TimerEvent: {}
+[47.534703] (-) TimerEvent: {}
+[47.650709] (-) TimerEvent: {}
+[47.754717] (-) TimerEvent: {}
+[47.858733] (-) TimerEvent: {}
+[47.978773] (-) TimerEvent: {}
+[48.094739] (-) TimerEvent: {}
+[48.207466] (-) TimerEvent: {}
+[48.309621] (-) TimerEvent: {}
+[48.418711] (-) TimerEvent: {}
+[48.519869] (-) TimerEvent: {}
+[48.622009] (-) TimerEvent: {}
+[48.726709] (-) TimerEvent: {}
+[48.827774] (-) TimerEvent: {}
+[48.930484] (-) TimerEvent: {}
+[49.031885] (-) TimerEvent: {}
+[49.133093] (-) TimerEvent: {}
+[49.242710] (-) TimerEvent: {}
+[49.343902] (-) TimerEvent: {}
+[49.450696] (-) TimerEvent: {}
+[49.565078] (-) TimerEvent: {}
+[49.666693] (-) TimerEvent: {}
+[49.767673] (-) TimerEvent: {}
+[49.868706] (-) TimerEvent: {}
+[49.969879] (-) TimerEvent: {}
+[50.087594] (-) TimerEvent: {}
+[50.126407] (bumperbot_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/get_transform__type_support.cpp.o\x1b[0m\n'}
+[50.187800] (-) TimerEvent: {}
+[50.298375] (-) TimerEvent: {}
+[50.404046] (-) TimerEvent: {}
+[50.507740] (-) TimerEvent: {}
+[50.626784] (-) TimerEvent: {}
+[50.732524] (-) TimerEvent: {}
+[50.859485] (-) TimerEvent: {}
+[50.981550] (-) TimerEvent: {}
+[51.087053] (-) TimerEvent: {}
+[51.188526] (-) TimerEvent: {}
+[51.290726] (-) TimerEvent: {}
+[51.397547] (-) TimerEvent: {}
+[51.509463] (-) TimerEvent: {}
+[51.611130] (-) TimerEvent: {}
+[51.712732] (-) TimerEvent: {}
+[51.816660] (-) TimerEvent: {}
+[51.918372] (-) TimerEvent: {}
+[52.020093] (-) TimerEvent: {}
+[52.121659] (-) TimerEvent: {}
+[52.227726] (-) TimerEvent: {}
+[52.333497] (-) TimerEvent: {}
+[52.435191] (-) TimerEvent: {}
+[52.536905] (-) TimerEvent: {}
+[52.639685] (-) TimerEvent: {}
+[52.741407] (-) TimerEvent: {}
+[52.843660] (-) TimerEvent: {}
+[52.947713] (-) TimerEvent: {}
+[53.076027] (-) TimerEvent: {}
+[53.227143] (-) TimerEvent: {}
+[53.414835] (-) TimerEvent: {}
+[53.519105] (-) TimerEvent: {}
+[53.622776] (-) TimerEvent: {}
+[53.738701] (-) TimerEvent: {}
+[53.839806] (-) TimerEvent: {}
+[53.951063] (-) TimerEvent: {}
+[54.078811] (-) TimerEvent: {}
+[54.186710] (-) TimerEvent: {}
+[54.294907] (-) TimerEvent: {}
+[54.449105] (-) TimerEvent: {}
+[54.551475] (-) TimerEvent: {}
+[54.653983] (-) TimerEvent: {}
