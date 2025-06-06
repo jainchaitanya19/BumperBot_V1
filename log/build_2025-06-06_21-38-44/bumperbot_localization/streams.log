@@ -1,0 +1,62 @@
+[0.015s] Invoking command in '/home/ubuntu/BumperBot_V1/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/BumperBot_V1/build/bumperbot_localization -- -j8 -l8
+[0.057s] [ 25%] [32mBuilding CXX object CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o[0m
+[0.064s] [ 25%] Built target ament_cmake_python_copy_bumperbot_localization
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[0.313s] running egg_info
+[0.314s] writing bumperbot_localization.egg-info/PKG-INFO
+[0.314s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[0.314s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[0.315s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.315s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.367s] [ 50%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[5.747s] [ 75%] [32m[1mLinking CXX executable imu_republisher[0m
+[7.003s] [ 75%] Built target imu_republisher
+[11.499s] [100%] [32m[1mLinking CXX executable kalman_filter[0m
+[12.066s] [100%] Built target kalman_filter
+[12.080s] Invoked command in '/home/ubuntu/BumperBot_V1/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/BumperBot_V1/build/bumperbot_localization -- -j8 -l8
+[12.082s] Invoking command in '/home/ubuntu/BumperBot_V1/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/BumperBot_V1/build/bumperbot_localization
+[12.092s] -- Install configuration: ""
+[12.092s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[12.092s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[12.093s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info
+[12.093s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[12.093s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.093s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/top_level.txt
+[12.094s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.094s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization
+[12.094s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/kalman_filter.py
+[12.094s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/imu_republisher.py
+[12.094s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/__init__.py
+[12.152s] Listing '/home/ubuntu/BumperBot_V1/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization'...
+[12.153s] Compiling '/home/ubuntu/BumperBot_V1/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/__init__.py'...
+[12.153s] Compiling '/home/ubuntu/BumperBot_V1/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/imu_republisher.py'...
+[12.153s] Compiling '/home/ubuntu/BumperBot_V1/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/kalman_filter.py'...
+[12.159s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/include/include
+[12.159s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/include/include/bumperbot_localization
+[12.159s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+[12.160s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter
+[12.165s] -- Set runtime path of "/home/ubuntu/BumperBot_V1/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter" to ""
+[12.165s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
+[12.168s] -- Set runtime path of "/home/ubuntu/BumperBot_V1/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher" to ""
+[12.168s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/launch
+[12.169s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+[12.169s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/config
+[12.169s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+[12.169s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[12.169s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[12.170s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[12.171s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[12.172s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[12.172s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[12.172s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[12.172s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[12.172s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[12.172s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[12.173s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[12.173s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[12.173s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[12.173s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[12.173s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[12.173s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[12.174s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[12.176s] Invoked command in '/home/ubuntu/BumperBot_V1/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/BumperBot_V1/build/bumperbot_localization

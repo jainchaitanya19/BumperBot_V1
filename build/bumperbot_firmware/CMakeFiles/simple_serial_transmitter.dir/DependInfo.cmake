@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/chaitanya/bumperbot_ws/src/bumperbot_firmware/src/transmitter.cpp" "CMakeFiles/simple_serial_transmitter.dir/src/transmitter.cpp.o" "gcc" "CMakeFiles/simple_serial_transmitter.dir/src/transmitter.cpp.o.d"
+  "/home/ubuntu/BumperBot_V1/src/bumperbot_firmware/src/transmitter.cpp" "CMakeFiles/simple_serial_transmitter.dir/src/transmitter.cpp.o" "gcc" "CMakeFiles/simple_serial_transmitter.dir/src/transmitter.cpp.o.d"
   )
 
 # Targets to which this target links.

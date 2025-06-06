@@ -1,0 +1,3 @@
+Invoking command in '/home/ubuntu/BumperBot_V1/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/BumperBot_V1/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/home/ubuntu/BumperBot_V1/install/bumperbot_firmware
+Invoked command in '/home/ubuntu/BumperBot_V1/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/BumperBot_V1/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/home/ubuntu/BumperBot_V1/install/bumperbot_firmware
+Invoking command in '/home/ubuntu/BumperBot_V1/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/BumperBot_V1/build/bumperbot_firmware -- -j8 -l8

@@ -1,0 +1,43 @@
+[0.014s] Invoking command in '/home/ubuntu/BumperBot_V1/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/BumperBot_V1/build/bumperbot_firmware -- -j8 -l8
+[0.067s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/transmitter.cpp.o[0m
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/BumperbotHardware.cpp.o[0m
+[2.856s] [ 75%] [32m[1mLinking CXX shared library libbumperbot_firmware.so[0m
+[3.149s] [ 75%] Built target bumperbot_firmware
+[5.115s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[5.944s] [100%] Built target simple_serial_transmitter
+[5.960s] Invoked command in '/home/ubuntu/BumperBot_V1/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/BumperBot_V1/build/bumperbot_firmware -- -j8 -l8
+[5.962s] Invoking command in '/home/ubuntu/BumperBot_V1/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/BumperBot_V1/build/bumperbot_firmware
+[5.972s] -- Install configuration: ""
+[5.972s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/src/BumperbotHardware.xml
+[5.972s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[5.973s] -- Set runtime path of "/home/ubuntu/BumperBot_V1/install/bumperbot_firmware/lib/libbumperbot_firmware.so" to ""
+[5.974s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[5.978s] -- Set runtime path of "/home/ubuntu/BumperBot_V1/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter" to ""
+[5.978s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/include/include
+[5.978s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/include/include/bumperbot_firmware
+[5.978s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[5.979s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/launch
+[5.979s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/launch/hardware_interface.launch.py
+[5.979s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/BumperbotHardware.xml
+[5.979s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[5.980s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[5.980s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[5.980s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[5.981s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[5.981s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[5.982s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[5.982s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[5.982s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[5.983s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[5.983s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[5.983s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[5.984s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[5.984s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[5.984s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/ament_index/resource_index/bumperbot_firmware__pluginlib__plugin/bumperbot_firmware
+[5.984s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.985s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[5.985s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.985s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[5.985s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[5.986s] -- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[5.988s] Invoked command in '/home/ubuntu/BumperBot_V1/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/BumperBot_V1/build/bumperbot_firmware

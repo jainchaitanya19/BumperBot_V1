@@ -1,5 +1,5 @@
 CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o: \
- /home/chaitanya/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_lifecycle_node.cpp \
+ /home/ubuntu/BumperBot_V1/src/bumperbot_cpp_examples/src/simple_lifecycle_node.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \

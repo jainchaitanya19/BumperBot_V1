@@ -1,7 +1,7 @@
 CMakeFiles/bumperbot_firmware.dir/src/BumperbotHardware.cpp.o: \
- /home/chaitanya/bumperbot_ws/src/bumperbot_firmware/src/BumperbotHardware.cpp \
+ /home/ubuntu/BumperBot_V1/src/bumperbot_firmware/src/BumperbotHardware.cpp \
  /usr/include/stdc-predef.h \
- /home/chaitanya/bumperbot_ws/src/bumperbot_firmware/include/bumperbot_firmware/bumperbot_interface.hpp \
+ /home/ubuntu/BumperBot_V1/src/bumperbot_firmware/include/bumperbot_firmware/bumperbot_interface.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \

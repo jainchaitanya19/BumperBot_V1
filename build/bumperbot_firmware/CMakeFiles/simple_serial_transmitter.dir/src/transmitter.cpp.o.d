@@ -1,5 +1,5 @@
 CMakeFiles/simple_serial_transmitter.dir/src/transmitter.cpp.o: \
- /home/chaitanya/bumperbot_ws/src/bumperbot_firmware/src/transmitter.cpp \
+ /home/ubuntu/BumperBot_V1/src/bumperbot_firmware/src/transmitter.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \

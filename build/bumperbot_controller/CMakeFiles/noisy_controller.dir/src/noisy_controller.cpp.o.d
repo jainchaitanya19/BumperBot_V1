@@ -1,7 +1,7 @@
 CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o: \
- /home/chaitanya/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp \
+ /home/ubuntu/BumperBot_V1/src/bumperbot_controller/src/noisy_controller.cpp \
  /usr/include/stdc-predef.h \
- /home/chaitanya/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/noisy_controller.hpp \
+ /home/ubuntu/BumperBot_V1/src/bumperbot_controller/include/bumperbot_controller/noisy_controller.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \

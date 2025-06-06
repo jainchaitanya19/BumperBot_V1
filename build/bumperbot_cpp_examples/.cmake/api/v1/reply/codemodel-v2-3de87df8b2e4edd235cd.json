@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-255e37793071caf186a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bumperbot_cpp_examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bumperbot_cpp_examples_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bumperbot_cpp_examples_uninstall-4cdee88f372230edf786.json",
+					"name" : "bumperbot_cpp_examples_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_lifecycle_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_lifecycle_node-a918bf3dfc2bd102813a.json",
+					"name" : "simple_lifecycle_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_parameter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_parameter-e12a480a446993e7352a.json",
+					"name" : "simple_parameter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_publisher-d84db13b75cc6d52427d.json",
+					"name" : "simple_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_service_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_service_client-8c4dac6cf1d6ddc7641f.json",
+					"name" : "simple_service_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_service_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_service_server-b8a4e3b285cd659af5f2.json",
+					"name" : "simple_service_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_subscriber-bf94cb1d8548865c32f4.json",
+					"name" : "simple_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_tf_kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_tf_kinematics-a1d636b59ae84ca958c4.json",
+					"name" : "simple_tf_kinematics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_turtlesim_kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_turtlesim_kinematics-02c93942735560f120ba.json",
+					"name" : "simple_turtlesim_kinematics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-31b9ebf77f4a677b7f30.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/BumperBot_V1/build/bumperbot_cpp_examples",
+		"source" : "/home/ubuntu/BumperBot_V1/src/bumperbot_cpp_examples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

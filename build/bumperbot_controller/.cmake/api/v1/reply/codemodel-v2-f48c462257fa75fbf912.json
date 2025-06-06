@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f66d278258a12641427b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bumperbot_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_bumperbot_controller_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_bumperbot_controller_egg-5ab55d764d80edec63b8.json",
+					"name" : "ament_cmake_python_build_bumperbot_controller_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_bumperbot_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_bumperbot_controller-6c8fe9da42bc7db14197.json",
+					"name" : "ament_cmake_python_copy_bumperbot_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bumperbot_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bumperbot_controller_uninstall-cb6deae34d76347fb690.json",
+					"name" : "bumperbot_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "noisy_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-noisy_controller-aee2314d69d3f6160566.json",
+					"name" : "noisy_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_controller-68cae161e73ade1c33d5.json",
+					"name" : "simple_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-88132f1e8c5385d804ad.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/BumperBot_V1/build/bumperbot_controller",
+		"source" : "/home/ubuntu/BumperBot_V1/src/bumperbot_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

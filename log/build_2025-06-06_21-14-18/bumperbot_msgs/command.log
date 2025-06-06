@@ -1,0 +1,3 @@
+Invoking command in '/home/ubuntu/BumperBot_V1/build/bumperbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/BumperBot_V1/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/BumperBot_V1/install/bumperbot_msgs
+Invoked command in '/home/ubuntu/BumperBot_V1/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/BumperBot_V1/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/BumperBot_V1/install/bumperbot_msgs
+Invoking command in '/home/ubuntu/BumperBot_V1/build/bumperbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/BumperBot_V1/build/bumperbot_msgs -- -j8 -l8

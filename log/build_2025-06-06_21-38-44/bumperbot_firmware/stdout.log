@@ -1,0 +1,39 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/transmitter.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/BumperbotHardware.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libbumperbot_firmware.so[0m
+[ 75%] Built target bumperbot_firmware
+[100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[100%] Built target simple_serial_transmitter
+-- Install configuration: ""
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/src/BumperbotHardware.xml
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+-- Set runtime path of "/home/ubuntu/BumperBot_V1/install/bumperbot_firmware/lib/libbumperbot_firmware.so" to ""
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+-- Set runtime path of "/home/ubuntu/BumperBot_V1/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter" to ""
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/include/include
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/include/include/bumperbot_firmware
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/launch
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/launch/hardware_interface.launch.py
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/BumperbotHardware.xml
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/ament_index/resource_index/bumperbot_firmware__pluginlib__plugin/bumperbot_firmware
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+-- Installing: /home/ubuntu/BumperBot_V1/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
