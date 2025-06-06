@@ -66,8 +66,13 @@ install(TARGETS
 
 # Install Headers
 install(
-  DIRECTORY include/
+  DIRECTORY include
   DESTINATION include
+)
+
+install(
+  DIRECTORY launch
+  DESTINATION share
 )
 
 # Install Plugin XML

@@ -1,7 +1,8 @@
 /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/src/BumperbotHardware.xml
 /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
 /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
-/home/chaitanya/bumperbot_ws/install/bumperbot_firmware/include/bumperbot_firmware/bumperbot_interface.hpp
+/home/chaitanya/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+/home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/launch/hardware_interface.launch.py
 /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/BumperbotHardware.xml
 /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
 /home/chaitanya/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
